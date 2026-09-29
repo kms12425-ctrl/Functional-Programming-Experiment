@@ -1,0 +1,11 @@
+# 忽略构建产物
+target/
+
+# 忽略本地备份
+.student_backup/
+
+# 忽略加压数据集（可由脚本重新生成）
+data_large/
+
+# 忽略学生答案（不应提交到公共仓库）
+ANSWERS.md

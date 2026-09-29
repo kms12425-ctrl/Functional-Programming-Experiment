@@ -1,0 +1,1100 @@
+2026-09-19T10:00:00Z INFO  [worker-3] 任务开始处理 id=256
+2026-09-19T10:00:01Z INFO  [worker-4] 任务开始处理 id=4096
+2026-09-19T10:00:02Z INFO  [worker-3] 缓存命中率偏低 id=256
+2026-09-19T10:00:03Z WARN  [worker-2] 连接重置 id=256 重试中
+2026-09-19T10:00:04Z WARN  [reaper] 任务失败 id=512 reason=timeout
+2026-09-19T10:00:05Z INFO  [worker-3] 队列深度超过阈值 id=512 队列=30
+2026-09-19T10:00:06Z ERROR [worker-3] 连接重置 id=1024 重试中
+2026-09-19T10:00:07Z INFO  [scheduler] 连接重置 id=1024 重试中
+2026-09-19T10:00:08Z INFO  [reaper] 队列深度超过阈值 id=512 队列=306
+2026-09-19T10:00:09Z INFO  [worker-1] 任务失败 id=512 reason=timeout
+2026-09-19T10:00:10Z WARN  [scheduler] 缓存命中率偏低 id=8192
+2026-09-19T10:00:11Z WARN  [worker-2] 任务失败 id=1024 reason=timeout
+2026-09-19T10:00:12Z INFO  [worker-4] 任务失败 id=4096 reason=timeout
+2026-09-19T10:00:13Z INFO  [scheduler] 缓存命中率偏低 id=4096
+2026-09-19T10:00:14Z INFO  [worker-4] 缓存命中率偏低 id=1024
+2026-09-19T10:00:15Z INFO  [worker-2] 任务开始处理 id=512
+2026-09-19T10:00:16Z ERROR [worker-3] 缓存命中率偏低 id=8192
+2026-09-19T10:00:17Z ERROR [worker-3] 任务完成 id=1024 耗时 824ms
+2026-09-19T10:23:45Z INFO worker-3 missing brackets
+2026-09-19T10:00:19Z INFO  [worker-2] 缓存命中率偏低 id=2048
+2026-09-19T10:00:20Z INFO  [worker-1] 队列深度超过阈值 id=8192 队列=404
+2026-09-19T10:00:21Z INFO  [reaper] 缓存命中率偏低 id=512
+2026-09-19T10:00:22Z INFO  [worker-4] 队列深度超过阈值 id=2048 队列=217
+2026-09-19T10:00:23Z INFO  [worker-4] 缓存命中率偏低 id=1024
+2026-09-19T10:00:24Z INFO  [worker-1] 连接重置 id=4096 重试中
+2026-09-19T10:00:25Z INFO  [reaper] 缓存命中率偏低 id=8192
+2026-09-19T10:00:26Z INFO  [worker-2] 连接重置 id=8192 重试中
+2026-09-19T10:00:27Z INFO  [worker-3] 任务完成 id=2048 耗时 543ms
+2026-09-19T10:00:28Z INFO  [worker-3] 连接重置 id=2048 重试中
+2026-09-19T10:00:29Z WARN  [worker-3] 任务失败 id=4096 reason=timeout
+2026-09-19T10:00:30Z INFO  [worker-3] 任务完成 id=2048 耗时 171ms
+2026-09-19T10:00:31Z ERROR [worker-1] 连接重置 id=4096 重试中
+2026-09-19T10:00:32Z INFO  [worker-1] 队列深度超过阈值 id=256 队列=995
+2026-09-19T10:00:33Z ERROR [worker-4] 缓存命中率偏低 id=512
+2026-09-19T10:00:34Z WARN  [worker-1] 缓存命中率偏低 id=512
+2026-09-19T10:00:35Z WARN  [scheduler] 队列深度超过阈值 id=8192 队列=206
+2026-09-19T10:00:36Z INFO  [worker-1] task lookup id=unknown
+2026-09-19T10:00:37Z WARN  [worker-4] 任务开始处理 id=8192
+2026-09-19T10:00:38Z INFO  [worker-1] 任务开始处理 id=4096
+2026-09-19T10:00:39Z INFO  [worker-2] 任务开始处理 id=4096
+2026-09-19T10:00:40Z INFO  [worker-1] 任务失败 id=1024 reason=timeout
+2026-09-19T10:00:41Z ERROR [reaper] 队列深度超过阈值 id=2048 队列=519
+2026-09-19T10:00:42Z WARN  [worker-4] 连接重置 id=256 重试中
+2026-09-19T10:00:43Z INFO  [reaper] 任务完成 id=256 耗时 733ms
+2026-09-19T10:00:44Z INFO  [scheduler] 队列深度超过阈值 id=4096 队列=115
+2026-09-19T10:00:45Z INFO  [reaper] 缓存命中率偏低 id=256
+2026-09-19T10:00:46Z INFO  [worker-3] 缓存命中率偏低 id=4096
+2026-09-19T10:00:47Z INFO  [worker-4] 缓存命中率偏低 id=1024
+2026-09-19T10:00:48Z INFO  [worker-3] 队列深度超过阈值 id=4096 队列=140
+2026-09-19T10:00:49Z WARN  [reaper] 任务开始处理 id=8192
+2026-09-19T10:00:50Z INFO  [reaper] 缓存命中率偏低 id=2048
+2026-09-19T10:00:51Z WARN  [scheduler] 缓存命中率偏低 id=2048
+2026-09-19T10:00:52Z WARN  [worker-4] 队列深度超过阈值 id=256 队列=544
+2026-09-19T10:00:53Z INFO  [worker-4] 任务完成 id=1024 耗时 198ms
+2026-09-19T10:00:54Z INFO  [worker-4] 缓存命中率偏低 id=1024
+2026-09-19T10:00:55Z INFO  [worker-4] 任务完成 id=256 耗时 103ms
+2026-09-19T10:00:56Z INFO  [worker-1] 任务完成 id=256 耗时 100ms
+2026-09-19T10:00:57Z INFO  [worker-2] 任务开始处理 id=4096
+2026-09-19T10:00:58Z INFO  [worker-2] 任务完成 id=4096 耗时 363ms
+2026-09-19T10:00:59Z INFO  [worker-4] 队列深度超过阈值 id=256 队列=567
+2026-09-19T10:01:00Z INFO  [worker-3] 任务失败 id=1024 reason=timeout
+2026-09-19T10:01:01Z WARN  [reaper] 缓存命中率偏低 id=4096
+2026-09-19T10:01:02Z INFO  [worker-4] 任务开始处理 id=512
+2026-09-19T10:01:03Z WARN  [worker-3] 缓存命中率偏低 id=2048
+2026-09-19T10:01:04Z INFO  [reaper] 任务开始处理 id=4096
+2026-09-19T10:01:05Z INFO  [worker-1] 任务完成 id=8192 耗时 133ms
+2026-09-19T10:01:06Z INFO  [reaper] 连接重置 id=512 重试中
+2026-09-19T10:01:07Z INFO  [worker-1] 任务失败 id=2048 reason=timeout
+2026-09-19T10:01:08Z INFO  [worker-4] 队列深度超过阈值 id=2048 队列=378
+2026-09-19T10:01:09Z WARN  [worker-3] 任务开始处理 id=1024
+2026-09-19T10:01:10Z WARN  [worker-2] 队列深度超过阈值 id=512 队列=183
+2026-09-19T10:01:11Z WARN  [worker-1] 任务完成 id=1024 耗时 581ms
+2026-09-19T10:01:12Z INFO  [worker-3] 任务完成 id=2048 耗时 476ms
+2026-09-19T10:01:13Z INFO  [scheduler] task lookup id=unknown
+2026-09-19T10:01:14Z ERROR [worker-2] 任务失败 id=256 reason=timeout
+2026-09-19T10:01:15Z INFO  [reaper] 任务完成 id=2048 耗时 897ms
+2026-09-19T10:01:16Z INFO  [worker-3] 任务开始处理 id=512
+2026-09-19T10:01:17Z WARN  [worker-1] 任务完成 id=8192 耗时 334ms
+2026-09-19T10:01:18Z INFO  [worker-4] 缓存命中率偏低 id=512
+2026-09-19T10:01:19Z INFO  [worker-2] 任务完成 id=512 耗时 541ms
+2026-09-19T10:01:20Z INFO  [worker-4] 连接重置 id=1024 重试中
+2026-09-19T10:01:21Z INFO  [worker-1] 任务完成 id=512 耗时 624ms
+2026-09-19T10:01:22Z INFO  [worker-4] 队列深度超过阈值 id=4096 队列=979
+2026-09-19T10:01:23Z INFO  [scheduler] 队列深度超过阈值 id=8192 队列=728
+2026-09-19T10:01:24Z INFO  [worker-3] 缓存命中率偏低 id=512
+2026-09-19T10:01:25Z WARN  [worker-2] 任务完成 id=2048 耗时 413ms
+2026-09-19T10:01:26Z INFO  [scheduler] 队列深度超过阈值 id=1024 队列=907
+2026-09-19T10:01:27Z INFO  [worker-4] 任务开始处理 id=4096
+2026-09-19T10:01:28Z INFO  [worker-4] 缓存命中率偏低 id=256
+2026-09-19T10:01:29Z INFO  [worker-2] 队列深度超过阈值 id=4096 队列=200
+2026-09-19T10:01:30Z WARN  [worker-4] 任务完成 id=512 耗时 222ms
+2026-09-19T10:01:31Z INFO  [reaper] 任务开始处理 id=8192
+2026-09-19T10:01:32Z INFO  [worker-2] 队列深度超过阈值 id=512 队列=384
+2026-09-19T10:01:33Z INFO  [reaper] 缓存命中率偏低 id=8192
+2026-09-19T10:01:34Z INFO  [scheduler] 连接重置 id=256 重试中
+2026-09-19T10:01:35Z INFO  [worker-2] 队列深度超过阈值 id=1024 队列=176
+2026-09-19T10:01:36Z WARN  [worker-3] 连接重置 id=1024 重试中
+2026-09-19T10:01:37Z INFO  [worker-1] 任务开始处理 id=1024
+2026-09-19T10:01:38Z INFO  [worker-2] 缓存命中率偏低 id=2048
+2026-09-19T10:01:39Z INFO  [reaper] 任务开始处理 id=2048
+2026-09-19T10:01:40Z INFO  [worker-4] 任务失败 id=2048 reason=timeout
+2026-09-19T10:01:41Z INFO  [scheduler] 任务完成 id=256 耗时 816ms
+2026-09-19T10:01:42Z INFO  [worker-2] 队列深度超过阈值 id=2048 队列=96
+2026-09-19T10:01:43Z INFO  [scheduler] 任务失败 id=8192 reason=timeout
+2026-09-19T10:01:44Z WARN  [worker-1] 任务完成 id=8192 耗时 384ms
+2026-09-19T10:01:45Z INFO  [worker-1] 任务失败 id=8192 reason=timeout
+2026-09-19T10:01:46Z INFO  [worker-4] 队列深度超过阈值 id=512 队列=671
+2026-09-19T10:01:47Z INFO  [worker-1] 缓存命中率偏低 id=256
+2026-09-19T10:01:48Z WARN  [scheduler] 缓存命中率偏低 id=256
+2026-09-19T10:01:49Z WARN  [scheduler] 任务失败 id=8192 reason=timeout
+2026-09-19T10:01:50Z WARN  [worker-1] task lookup id=unknown
+2026-09-19T10:01:51Z INFO  [worker-1] 任务开始处理 id=512
+2026-09-19T10:01:52Z INFO  [worker-4] 任务失败 id=256 reason=timeout
+2026-09-19T10:01:53Z INFO  [worker-2] 任务开始处理 id=1024
+2026-09-19T10:01:54Z INFO  [scheduler] 连接重置 id=4096 重试中
+2026-09-19T10:01:55Z INFO  [worker-2] 缓存命中率偏低 id=8192
+2026-09-19T10:01:56Z INFO  [worker-4] 队列深度超过阈值 id=4096 队列=603
+2026-09-19T10:01:57Z WARN  [worker-3] 任务开始处理 id=4096
+2026-09-19T10:01:58Z INFO  [scheduler] 任务完成 id=8192 耗时 890ms
+2026-09-19T10:01:59Z INFO  [worker-4] 任务完成 id=8192 耗时 722ms
+2026-09-19T10:02:00Z WARN  [worker-4] 任务开始处理 id=256
+2026-09-19T10:02:01Z INFO  [worker-4] 队列深度超过阈值 id=1024 队列=184
+2026-09-19T10:02:02Z INFO  [reaper] 连接重置 id=2048 重试中
+2026-09-19T10:02:03Z WARN  [scheduler] 任务失败 id=8192 reason=timeout
+2026-09-19T10:02:04Z ERROR [worker-3] 队列深度超过阈值 id=4096 队列=522
+2026-09-19T10:02:05Z ERROR [worker-4] 任务失败 id=1024 reason=timeout
+2026-09-19T10:02:06Z INFO  [reaper] 缓存命中率偏低 id=8192
+2026-09-19T10:02:07Z WARN  [worker-4] 任务失败 id=256 reason=timeout
+2026-09-19T10:02:08Z INFO  [worker-1] 队列深度超过阈值 id=256 队列=186
+2026-09-19T10:02:09Z INFO  [worker-2] 任务失败 id=1024 reason=timeout
+2026-09-19T10:02:10Z WARN  [worker-3] 连接重置 id=4096 重试中
+2026-09-19T10:02:11Z INFO  [worker-4] 队列深度超过阈值 id=4096 队列=173
+2026-09-19T10:02:12Z INFO  [worker-1] 队列深度超过阈值 id=4096 队列=822
+2026-09-19T10:02:13Z INFO  [worker-3] 任务开始处理 id=4096
+2026-09-19T10:02:14Z WARN  [worker-3] 缓存命中率偏低 id=512
+2026-09-19T10:02:15Z INFO  [scheduler] 队列深度超过阈值 id=1024 队列=902
+2026-09-19T10:02:16Z INFO  [worker-2] 队列深度超过阈值 id=4096 队列=612
+2026-09-19T10:02:17Z WARN  [reaper] 缓存命中率偏低 id=1024
+2026-09-19T10:02:18Z INFO  [worker-2] 连接重置 id=1024 重试中
+2026-09-19T10:02:19Z INFO  [worker-1] 缓存命中率偏低 id=2048
+2026-09-19T10:02:20Z INFO  [worker-1] 缓存命中率偏低 id=4096
+2026-09-19T10:02:21Z INFO  [worker-2] 队列深度超过阈值 id=8192 队列=623
+2026-09-19T10:02:22Z INFO  [worker-4] 缓存命中率偏低 id=4096
+2026-09-19T10:02:23Z INFO  [worker-2] 任务完成 id=256 耗时 544ms
+2026-09-19T10:02:24Z INFO  [reaper] 任务失败 id=8192 reason=timeout
+2026-09-19T10:02:25Z INFO  [worker-1] 任务失败 id=8192 reason=timeout
+2026-09-19T10:02:26Z WARN  [worker-2] 任务完成 id=256 耗时 707ms
+2026-09-19T10:02:27Z INFO  [worker-4] task lookup id=unknown
+2026-09-19T10:02:28Z INFO  [worker-4] 任务开始处理 id=2048
+2026-09-19T10:02:29Z INFO  [worker-1] 连接重置 id=4096 重试中
+2026-09-19T10:02:30Z WARN  [worker-1] 任务开始处理 id=2048
+2026-09-19T10:02:31Z WARN  [worker-1] 任务完成 id=256 耗时 316ms
+2026-09-19T10:02:32Z WARN  [reaper] 任务失败 id=256 reason=timeout
+2026-09-19T10:02:33Z INFO  [worker-3] 任务开始处理 id=256
+2026-09-19T10:02:34Z INFO  [worker-4] 连接重置 id=2048 重试中
+2026-09-19T10:02:35Z INFO  [worker-2] 连接重置 id=2048 重试中
+2026-09-19T10:02:36Z INFO  [worker-3] 队列深度超过阈值 id=512 队列=800
+2026-09-19T10:02:37Z INFO  [reaper] 任务失败 id=8192 reason=timeout
+2026-09-19T10:02:38Z INFO  [worker-4] 缓存命中率偏低 id=2048
+2026-09-19T10:02:39Z INFO  [worker-3] 任务失败 id=256 reason=timeout
+2026-09-19T10:02:40Z INFO  [reaper] 连接重置 id=2048 重试中
+2026-09-19T10:02:41Z INFO  [worker-2] 任务失败 id=512 reason=timeout
+2026-09-19T10:02:42Z INFO  [worker-1] 连接重置 id=2048 重试中
+2026-09-19T10:02:43Z INFO  [worker-3] 缓存命中率偏低 id=512
+2026-09-19T10:02:44Z INFO  [worker-2] 任务完成 id=8192 耗时 737ms
+2026-09-19T10:02:45Z INFO  [scheduler] 任务完成 id=4096 耗时 425ms
+2026-09-19T10:02:46Z INFO  [worker-2] 任务开始处理 id=1024
+not a timestamp INFO [worker-3] hi
+2026-09-19T10:02:48Z INFO  [worker-3] 连接重置 id=2048 重试中
+2026-09-19T10:02:49Z INFO  [scheduler] 连接重置 id=512 重试中
+2026-09-19T10:02:50Z WARN  [worker-4] 队列深度超过阈值 id=1024 队列=794
+2026-09-19T10:02:51Z INFO  [worker-4] 任务失败 id=512 reason=timeout
+2026-09-19T10:02:52Z WARN  [scheduler] 任务开始处理 id=256
+2026-09-19T10:02:53Z INFO  [worker-1] 队列深度超过阈值 id=256 队列=223
+2026-09-19T10:02:54Z INFO  [worker-1] 任务完成 id=4096 耗时 159ms
+2026-09-19T10:02:55Z WARN  [scheduler] 连接重置 id=4096 重试中
+2026-09-19T10:02:56Z INFO  [scheduler] 队列深度超过阈值 id=8192 队列=511
+2026-09-19T10:02:57Z ERROR [worker-4] 连接重置 id=256 重试中
+2026-09-19T10:02:58Z INFO  [reaper] 任务完成 id=256 耗时 64ms
+2026-09-19T10:02:59Z WARN  [worker-3] 任务失败 id=4096 reason=timeout
+2026-09-19T10:03:00Z INFO  [worker-2] 连接重置 id=512 重试中
+2026-09-19T10:03:01Z ERROR [scheduler] 连接重置 id=8192 重试中
+2026-09-19T10:03:02Z INFO  [worker-2] 任务失败 id=2048 reason=timeout
+2026-09-19T10:03:03Z INFO  [worker-4] 连接重置 id=8192 重试中
+2026-09-19T10:03:04Z INFO  [worker-3] task lookup id=unknown
+2026-09-19T10:03:05Z INFO  [worker-1] 任务完成 id=1024 耗时 452ms
+2026-09-19T10:03:06Z INFO  [worker-4] 连接重置 id=8192 重试中
+2026-09-19T10:03:07Z INFO  [reaper] 连接重置 id=2048 重试中
+2026-09-19T10:03:08Z INFO  [scheduler] 任务完成 id=8192 耗时 796ms
+2026-09-19T10:03:09Z WARN  [reaper] 缓存命中率偏低 id=8192
+2026-09-19T10:03:10Z INFO  [worker-4] 连接重置 id=8192 重试中
+2026-09-19T10:03:11Z INFO  [worker-3] 任务开始处理 id=256
+2026-09-19T10:03:12Z INFO  [worker-1] 任务完成 id=256 耗时 287ms
+2026-09-19T10:03:13Z INFO  [worker-3] 缓存命中率偏低 id=1024
+2026-09-19T10:03:14Z ERROR [worker-1] 任务开始处理 id=8192
+2026-09-19T10:03:15Z WARN  [worker-2] 连接重置 id=4096 重试中
+2026-09-19T10:03:16Z INFO  [worker-3] 任务完成 id=8192 耗时 893ms
+2026-09-19T10:03:17Z INFO  [worker-4] 缓存命中率偏低 id=1024
+2026-09-19T10:03:18Z INFO  [worker-2] 队列深度超过阈值 id=1024 队列=482
+2026-09-19T10:03:19Z INFO  [worker-2] 任务失败 id=2048 reason=timeout
+2026-09-19T10:03:20Z WARN  [worker-2] 任务失败 id=4096 reason=timeout
+2026-09-19T10:03:21Z INFO  [worker-1] 连接重置 id=512 重试中
+2026-09-19T10:03:22Z INFO  [reaper] 队列深度超过阈值 id=1024 队列=697
+2026-09-19T10:03:23Z INFO  [reaper] 队列深度超过阈值 id=512 队列=71
+2026-09-19T10:03:24Z INFO  [worker-1] 任务完成 id=8192 耗时 256ms
+2026-09-19T10:03:25Z INFO  [worker-2] 队列深度超过阈值 id=2048 队列=614
+2026-09-19T10:03:26Z INFO  [worker-3] 连接重置 id=256 重试中
+2026-09-19T10:03:27Z WARN  [reaper] 任务完成 id=1024 耗时 891ms
+2026-09-19T10:03:28Z INFO  [worker-2] 任务完成 id=512 耗时 414ms
+2026-09-19T10:03:29Z ERROR [worker-3] 任务完成 id=256 耗时 354ms
+2026-09-19T10:03:30Z INFO  [reaper] 缓存命中率偏低 id=1024
+2026-09-19T10:03:31Z WARN  [worker-4] 缓存命中率偏低 id=4096
+2026-13-45T99:99:99Z INFO [worker-3] bad timestamp
+2026-09-19T10:03:33Z INFO  [reaper] 任务完成 id=8192 耗时 192ms
+2026-09-19T10:03:34Z ERROR [scheduler] 任务失败 id=512 reason=timeout
+2026-09-19T10:03:35Z INFO  [reaper] 任务失败 id=8192 reason=timeout
+2026-09-19T10:03:36Z INFO  [worker-3] 缓存命中率偏低 id=1024
+2026-09-19T10:03:37Z INFO  [worker-4] 队列深度超过阈值 id=2048 队列=856
+2026-09-19T10:03:38Z INFO  [worker-3] 连接重置 id=2048 重试中
+2026-09-19T10:03:39Z INFO  [worker-1] 队列深度超过阈值 id=8192 队列=627
+2026-09-19T10:03:40Z INFO  [reaper] 连接重置 id=2048 重试中
+2026-09-19T10:03:41Z WARN  [scheduler] task lookup id=unknown
+2026-09-19T10:03:42Z WARN  [worker-3] 队列深度超过阈值 id=2048 队列=672
+2026-09-19T10:03:43Z INFO  [scheduler] 任务完成 id=8192 耗时 11ms
+2026-09-19T10:03:44Z INFO  [worker-1] 连接重置 id=8192 重试中
+2026-09-19T10:03:45Z INFO  [scheduler] 任务开始处理 id=256
+2026-09-19T10:03:46Z INFO  [reaper] 任务开始处理 id=256
+2026-09-19T10:03:47Z INFO  [reaper] 队列深度超过阈值 id=1024 队列=893
+2026-09-19T10:03:48Z INFO  [reaper] 任务失败 id=2048 reason=timeout
+2026-09-19T10:03:49Z INFO  [worker-2] 任务开始处理 id=2048
+2026-09-19T10:03:50Z INFO  [reaper] 任务开始处理 id=2048
+2026-09-19T10:03:51Z INFO  [scheduler] 缓存命中率偏低 id=512
+2026-09-19T10:03:52Z INFO  [reaper] 连接重置 id=512 重试中
+2026-09-19T10:03:53Z WARN  [worker-1] 队列深度超过阈值 id=4096 队列=390
+2026-09-19T10:03:54Z INFO  [worker-1] 缓存命中率偏低 id=4096
+2026-09-19T10:03:55Z INFO  [reaper] 队列深度超过阈值 id=2048 队列=52
+2026-09-19T10:03:56Z INFO  [worker-2] 缓存命中率偏低 id=4096
+2026-09-19T10:03:57Z INFO  [reaper] 任务完成 id=512 耗时 651ms
+2026-09-19T10:03:58Z INFO  [worker-4] 任务失败 id=4096 reason=timeout
+2026-09-19T10:03:59Z INFO  [worker-2] 队列深度超过阈值 id=2048 队列=829
+2026-09-19T10:04:00Z WARN  [reaper] 任务开始处理 id=2048
+2026-09-19T10:04:01Z INFO  [reaper] 任务完成 id=8192 耗时 605ms
+2026-09-19T10:04:02Z INFO  [worker-4] 任务开始处理 id=1024
+2026-09-19T10:04:03Z INFO  [worker-1] 任务失败 id=8192 reason=timeout
+2026-09-19T10:04:04Z INFO  [worker-2] 任务完成 id=512 耗时 241ms
+2026-09-19T10:04:05Z WARN  [worker-3] 连接重置 id=8192 重试中
+2026-09-19T10:04:06Z ERROR [worker-4] 队列深度超过阈值 id=512 队列=186
+2026-09-19T10:04:07Z INFO  [worker-4] 连接重置 id=8192 重试中
+2026-09-19T10:04:08Z INFO  [worker-2] 队列深度超过阈值 id=256 队列=970
+2026-09-19T10:04:09Z WARN  [scheduler] 任务失败 id=8192 reason=timeout
+2026-09-19T10:04:10Z INFO  [scheduler] 任务失败 id=1024 reason=timeout
+2026-09-19T10:04:11Z INFO  [scheduler] 连接重置 id=2048 重试中
+2026-09-19T10:04:12Z INFO  [worker-1] 缓存命中率偏低 id=256
+2026-09-19T10:04:13Z INFO  [scheduler] 连接重置 id=8192 重试中
+2026-09-19T10:04:14Z WARN  [worker-4] 队列深度超过阈值 id=8192 队列=765
+2026-09-19T10:04:15Z INFO  [scheduler] 队列深度超过阈值 id=512 队列=365
+2026-09-19T10:04:16Z INFO  [worker-2] 任务开始处理 id=512
+2026-09-19T10:04:17Z INFO  [worker-3] 任务开始处理 id=1024
+2026-09-19T10:04:18Z INFO  [worker-2] task lookup id=unknown
+2026-09-19T10:04:19Z INFO  [worker-4] 任务失败 id=4096 reason=timeout
+2026-09-19T10:04:20Z ERROR [worker-3] 缓存命中率偏低 id=256
+2026-09-19T10:04:21Z INFO  [worker-2] 队列深度超过阈值 id=256 队列=891
+2026-09-19T10:04:22Z INFO  [worker-3] 任务开始处理 id=8192
+2026-09-19T10:04:23Z INFO  [worker-3] 任务完成 id=512 耗时 624ms
+2026-09-19T10:04:24Z WARN  [scheduler] 任务完成 id=512 耗时 20ms
+2026-09-19T10:04:25Z ERROR [reaper] 任务失败 id=512 reason=timeout
+2026-09-19T10:04:26Z INFO  [worker-2] 队列深度超过阈值 id=512 队列=509
+2026-09-19T10:04:27Z INFO  [worker-4] 任务开始处理 id=512
+2026-09-19T10:04:28Z INFO  [worker-3] 任务完成 id=2048 耗时 5ms
+2026-09-19T10:04:29Z INFO  [worker-2] 缓存命中率偏低 id=2048
+2026-09-19T10:04:30Z INFO  [reaper] 队列深度超过阈值 id=1024 队列=713
+2026-09-19T10:04:31Z ERROR [scheduler] 连接重置 id=4096 重试中
+2026-09-19T10:04:32Z INFO  [reaper] 任务开始处理 id=256
+2026-09-19T10:04:33Z INFO  [worker-2] 任务开始处理 id=1024
+2026-09-19T10:04:34Z INFO  [worker-4] 队列深度超过阈值 id=8192 队列=877
+2026-09-19T10:04:35Z INFO  [scheduler] 队列深度超过阈值 id=256 队列=60
+2026-09-19T10:04:36Z INFO  [reaper] 任务开始处理 id=256
+2026-09-19T10:04:37Z INFO  [reaper] 连接重置 id=4096 重试中
+2026-09-19T10:04:38Z INFO  [worker-4] 任务失败 id=256 reason=timeout
+2026-09-19T10:04:39Z INFO  [scheduler] 队列深度超过阈值 id=256 队列=434
+2026-09-19T10:04:40Z INFO  [reaper] 任务开始处理 id=1024
+2026-09-19T10:04:41Z INFO  [reaper] 连接重置 id=8192 重试中
+2026-09-19T10:04:42Z ERROR [worker-2] 缓存命中率偏低 id=4096
+2026-09-19T10:04:43Z INFO  [worker-3] 队列深度超过阈值 id=1024 队列=709
+2026-09-19T10:04:44Z INFO  [worker-2] 任务开始处理 id=256
+2026-09-19T10:04:45Z INFO  [worker-1] 任务失败 id=8192 reason=timeout
+2026-09-19T10:04:46Z INFO  [worker-3] 缓存命中率偏低 id=2048
+2026-09-19T10:04:47Z INFO  [scheduler] 任务完成 id=512 耗时 728ms
+2026-09-19T10:04:48Z INFO  [worker-2] 任务开始处理 id=4096
+2026-09-19T10:04:49Z INFO  [worker-2] 任务开始处理 id=256
+2026-09-19T10:04:50Z INFO  [worker-1] 任务失败 id=8192 reason=timeout
+2026-09-19T10:04:51Z WARN  [worker-2] 连接重置 id=1024 重试中
+2026-09-19T10:23:45Z INFO worker-3 missing brackets
+2026-09-19T10:04:53Z INFO  [scheduler] 任务失败 id=2048 reason=timeout
+2026-09-19T10:04:54Z INFO  [worker-4] 队列深度超过阈值 id=4096 队列=505
+2026-09-19T10:04:55Z INFO  [worker-1] task lookup id=unknown
+2026-09-19T10:04:56Z INFO  [reaper] 缓存命中率偏低 id=256
+2026-09-19T10:04:57Z INFO  [worker-2] 连接重置 id=4096 重试中
+2026-09-19T10:04:58Z INFO  [scheduler] 队列深度超过阈值 id=256 队列=127
+2026-09-19T10:04:59Z INFO  [scheduler] 队列深度超过阈值 id=2048 队列=164
+2026-09-19T10:05:00Z INFO  [worker-4] 缓存命中率偏低 id=512
+2026-09-19T10:05:01Z INFO  [worker-1] 任务失败 id=4096 reason=timeout
+2026-09-19T10:05:02Z INFO  [worker-2] 缓存命中率偏低 id=4096
+2026-09-19T10:05:03Z INFO  [worker-1] 任务失败 id=8192 reason=timeout
+2026-09-19T10:05:04Z INFO  [worker-2] 连接重置 id=2048 重试中
+2026-09-19T10:05:05Z INFO  [worker-4] 缓存命中率偏低 id=4096
+2026-09-19T10:05:06Z WARN  [worker-1] 连接重置 id=4096 重试中
+2026-09-19T10:05:07Z INFO  [worker-2] 队列深度超过阈值 id=256 队列=515
+2026-09-19T10:05:08Z INFO  [worker-4] 连接重置 id=1024 重试中
+2026-09-19T10:05:09Z INFO  [reaper] 缓存命中率偏低 id=512
+2026-09-19T10:05:10Z WARN  [scheduler] 任务失败 id=4096 reason=timeout
+2026-09-19T10:05:11Z INFO  [scheduler] 任务完成 id=256 耗时 678ms
+2026-09-19T10:05:12Z INFO  [reaper] 缓存命中率偏低 id=512
+2026-09-19T10:05:13Z INFO  [scheduler] 连接重置 id=2048 重试中
+2026-09-19T10:05:14Z WARN  [worker-4] 任务完成 id=512 耗时 407ms
+2026-09-19T10:05:15Z INFO  [worker-1] 任务开始处理 id=2048
+2026-09-19T10:05:16Z INFO  [worker-4] 队列深度超过阈值 id=256 队列=380
+2026-09-19T10:05:17Z ERROR [worker-3] 任务完成 id=512 耗时 631ms
+2026-09-19T10:05:18Z INFO  [reaper] 连接重置 id=256 重试中
+2026-09-19T10:05:19Z INFO  [reaper] 连接重置 id=2048 重试中
+2026-09-19T10:05:20Z INFO  [worker-2] 缓存命中率偏低 id=2048
+2026-09-19T10:05:21Z INFO  [reaper] 缓存命中率偏低 id=2048
+2026-09-19T10:05:22Z INFO  [reaper] 任务开始处理 id=2048
+2026-09-19T10:05:23Z INFO  [worker-1] 任务开始处理 id=512
+2026-09-19T10:05:24Z INFO  [scheduler] 任务失败 id=256 reason=timeout
+2026-09-19T10:05:25Z INFO  [scheduler] 任务失败 id=1024 reason=timeout
+2026-09-19T10:05:26Z INFO  [scheduler] 连接重置 id=512 重试中
+2026-09-19T10:05:27Z INFO  [worker-2] 任务失败 id=256 reason=timeout
+2026-09-19T10:05:28Z INFO  [worker-3] 连接重置 id=256 重试中
+2026-09-19T10:05:29Z INFO  [reaper] 任务开始处理 id=512
+2026-09-19T10:05:30Z INFO  [worker-1] 队列深度超过阈值 id=8192 队列=622
+2026-09-19T10:05:31Z INFO  [reaper] 缓存命中率偏低 id=512
+2026-09-19T10:05:32Z INFO  [worker-4] task lookup id=unknown
+2026-09-19T10:23:45Z TRACE [worker-3] unknown level
+2026-09-19T10:05:34Z INFO  [scheduler] 队列深度超过阈值 id=2048 队列=919
+2026-09-19T10:05:35Z INFO  [worker-3] 任务开始处理 id=8192
+2026-09-19T10:05:36Z INFO  [worker-1] 队列深度超过阈值 id=8192 队列=454
+2026-09-19T10:05:37Z INFO  [reaper] 任务开始处理 id=1024
+2026-09-19T10:05:38Z WARN  [reaper] 队列深度超过阈值 id=8192 队列=403
+2026-09-19T10:05:39Z WARN  [worker-1] 任务开始处理 id=8192
+2026-09-19T10:05:40Z INFO  [worker-2] 任务失败 id=8192 reason=timeout
+2026-09-19T10:05:41Z INFO  [worker-3] 队列深度超过阈值 id=256 队列=776
+2026-09-19T10:05:42Z INFO  [worker-1] 缓存命中率偏低 id=1024
+2026-09-19T10:05:43Z INFO  [worker-1] 缓存命中率偏低 id=2048
+2026-09-19T10:05:44Z INFO  [worker-2] 任务开始处理 id=2048
+2026-09-19T10:05:45Z INFO  [worker-1] 任务完成 id=256 耗时 87ms
+2026-09-19T10:05:46Z INFO  [worker-1] 任务开始处理 id=8192
+2026-09-19T10:05:47Z WARN  [scheduler] 任务完成 id=1024 耗时 365ms
+2026-09-19T10:05:48Z WARN  [worker-4] 任务完成 id=4096 耗时 686ms
+2026-09-19T10:05:49Z INFO  [reaper] 缓存命中率偏低 id=8192
+2026-09-19T10:05:50Z INFO  [worker-3] 任务开始处理 id=1024
+2026-09-19T10:05:51Z INFO  [reaper] 队列深度超过阈值 id=4096 队列=557
+2026-09-19T10:05:52Z ERROR [worker-2] 缓存命中率偏低 id=256
+2026-09-19T10:05:53Z INFO  [worker-1] 连接重置 id=4096 重试中
+2026-09-19T10:05:54Z WARN  [worker-1] 连接重置 id=8192 重试中
+2026-09-19T10:05:55Z INFO  [worker-3] 队列深度超过阈值 id=1024 队列=590
+2026-09-19T10:05:56Z INFO  [worker-1] 任务失败 id=8192 reason=timeout
+2026-09-19T10:05:57Z INFO  [worker-3] 任务失败 id=512 reason=timeout
+2026-09-19T10:05:58Z INFO  [worker-4] 连接重置 id=512 重试中
+2026-09-19T10:05:59Z ERROR [worker-2] 任务开始处理 id=2048
+2026-09-19T10:06:00Z INFO  [reaper] 任务失败 id=4096 reason=timeout
+2026-09-19T10:06:01Z INFO  [scheduler] 缓存命中率偏低 id=1024
+2026-09-19T10:06:02Z ERROR [worker-2] 连接重置 id=512 重试中
+2026-09-19T10:06:03Z INFO  [worker-3] 缓存命中率偏低 id=512
+2026-09-19T10:06:04Z INFO  [worker-2] 队列深度超过阈值 id=2048 队列=440
+2026-09-19T10:06:05Z INFO  [worker-1] 连接重置 id=8192 重试中
+2026-09-19T10:06:06Z WARN  [worker-3] 任务完成 id=8192 耗时 103ms
+2026-09-19T10:06:07Z INFO  [worker-2] 缓存命中率偏低 id=8192
+2026-09-19T10:06:08Z INFO  [reaper] 缓存命中率偏低 id=2048
+2026-09-19T10:06:09Z INFO  [worker-4] task lookup id=unknown
+2026-09-19T10:06:10Z INFO  [worker-4] 连接重置 id=512 重试中
+2026-09-19T10:06:11Z INFO  [worker-2] 任务完成 id=512 耗时 606ms
+2026-09-19T10:06:12Z INFO  [worker-4] 连接重置 id=1024 重试中
+2026-09-19T10:06:13Z INFO  [worker-1] 任务完成 id=4096 耗时 639ms
+2026-09-19T10:06:14Z INFO  [worker-1] 队列深度超过阈值 id=4096 队列=83
+2026-09-19T10:06:15Z WARN  [reaper] 缓存命中率偏低 id=512
+2026-09-19T10:06:16Z INFO  [worker-1] 任务失败 id=1024 reason=timeout
+2026-09-19T10:06:17Z INFO  [worker-3] 队列深度超过阈值 id=8192 队列=76
+2026-09-19T10:06:18Z INFO  [worker-2] 队列深度超过阈值 id=2048 队列=451
+2026-09-19T10:06:19Z INFO  [worker-3] 队列深度超过阈值 id=4096 队列=601
+2026-09-19T10:06:20Z INFO  [worker-1] 队列深度超过阈值 id=1024 队列=32
+2026-09-19T10:06:21Z INFO  [worker-4] 任务失败 id=256 reason=timeout
+2026-09-19T10:06:22Z WARN  [reaper] 任务失败 id=1024 reason=timeout
+2026-09-19T10:06:23Z INFO  [scheduler] 连接重置 id=8192 重试中
+2026-09-19T10:06:24Z INFO  [worker-1] 缓存命中率偏低 id=512
+2026-09-19T10:06:25Z INFO  [worker-1] 任务开始处理 id=256
+2026-09-19T10:06:26Z WARN  [worker-1] 任务完成 id=8192 耗时 332ms
+2026-09-19T10:06:27Z INFO  [reaper] 连接重置 id=256 重试中
+2026-09-19T10:06:28Z INFO  [worker-4] 缓存命中率偏低 id=4096
+2026-09-19T10:06:29Z WARN  [reaper] 任务开始处理 id=1024
+2026-09-19T10:06:30Z WARN  [worker-2] 连接重置 id=2048 重试中
+2026-09-19T10:06:31Z WARN  [reaper] 队列深度超过阈值 id=8192 队列=770
+2026-09-19T10:06:32Z INFO  [worker-3] 任务开始处理 id=256
+2026-09-19T10:06:33Z INFO  [worker-4] 连接重置 id=1024 重试中
+2026-09-19T10:06:34Z WARN  [worker-1] 缓存命中率偏低 id=4096
+2026-09-19T10:06:35Z WARN  [scheduler] 任务开始处理 id=512
+2026-09-19T10:06:36Z WARN  [worker-1] 队列深度超过阈值 id=2048 队列=621
+2026-09-19T10:06:37Z INFO  [scheduler] 连接重置 id=256 重试中
+2026-09-19T10:06:38Z INFO  [worker-4] 连接重置 id=8192 重试中
+2026-09-19T10:06:39Z ERROR [worker-4] 任务开始处理 id=256
+2026-09-19T10:06:40Z INFO  [worker-4] 缓存命中率偏低 id=4096
+2026-09-19T10:06:41Z INFO  [worker-4] 任务失败 id=512 reason=timeout
+2026-09-19T10:06:42Z INFO  [worker-3] 任务失败 id=512 reason=timeout
+2026-09-19T10:06:43Z INFO  [worker-2] 缓存命中率偏低 id=1024
+2026-09-19T10:06:44Z INFO  [worker-2] 任务完成 id=1024 耗时 171ms
+2026-09-19T10:06:45Z INFO  [worker-4] 任务完成 id=4096 耗时 467ms
+2026-09-19T10:06:46Z INFO  [worker-2] task lookup id=unknown
+-- continuation of previous line
+2026-09-19T10:06:48Z INFO  [scheduler] 任务失败 id=2048 reason=timeout
+2026-09-19T10:06:49Z INFO  [worker-4] 任务完成 id=512 耗时 586ms
+2026-09-19T10:06:50Z INFO  [scheduler] 连接重置 id=512 重试中
+2026-09-19T10:06:51Z INFO  [worker-2] 任务完成 id=512 耗时 884ms
+2026-09-19T10:06:52Z INFO  [worker-2] 队列深度超过阈值 id=256 队列=338
+2026-09-19T10:06:53Z INFO  [worker-1] 任务开始处理 id=2048
+2026-09-19T10:06:54Z INFO  [worker-4] 缓存命中率偏低 id=8192
+2026-09-19T10:06:55Z INFO  [worker-2] 连接重置 id=4096 重试中
+2026-09-19T10:06:56Z INFO  [scheduler] 任务完成 id=256 耗时 273ms
+2026-09-19T10:06:57Z INFO  [scheduler] 队列深度超过阈值 id=1024 队列=872
+2026-09-19T10:06:58Z INFO  [worker-2] 任务开始处理 id=512
+2026-09-19T10:06:59Z INFO  [reaper] 任务失败 id=2048 reason=timeout
+2026-09-19T10:07:00Z INFO  [scheduler] 任务开始处理 id=8192
+2026-09-19T10:07:01Z INFO  [worker-4] 任务开始处理 id=4096
+2026-09-19T10:07:02Z INFO  [worker-4] 连接重置 id=8192 重试中
+2026-09-19T10:07:03Z INFO  [worker-2] 任务失败 id=256 reason=timeout
+2026-09-19T10:07:04Z INFO  [worker-3] 缓存命中率偏低 id=8192
+2026-09-19T10:07:05Z WARN  [worker-1] 任务完成 id=512 耗时 553ms
+2026-09-19T10:07:06Z INFO  [worker-3] 任务开始处理 id=512
+2026-09-19T10:07:07Z INFO  [worker-1] 队列深度超过阈值 id=512 队列=516
+2026-09-19T10:07:08Z ERROR [worker-4] 缓存命中率偏低 id=1024
+2026-09-19T10:07:09Z INFO  [worker-2] 任务失败 id=256 reason=timeout
+2026-09-19T10:07:10Z WARN  [scheduler] 任务失败 id=1024 reason=timeout
+2026-09-19T10:07:11Z INFO  [worker-3] 连接重置 id=256 重试中
+2026-09-19T10:07:12Z INFO  [reaper] 任务完成 id=256 耗时 481ms
+2026-09-19T10:07:13Z INFO  [worker-4] 连接重置 id=512 重试中
+2026-09-19T10:07:14Z INFO  [worker-3] 连接重置 id=8192 重试中
+2026-09-19T10:07:15Z INFO  [worker-1] 连接重置 id=4096 重试中
+2026-09-19T10:07:16Z INFO  [scheduler] 缓存命中率偏低 id=1024
+2026-09-19T10:07:17Z WARN  [worker-4] 任务失败 id=256 reason=timeout
+2026-09-19T10:07:18Z INFO  [worker-2] 队列深度超过阈值 id=8192 队列=271
+2026-09-19T10:07:19Z INFO  [worker-1] 任务开始处理 id=1024
+2026-09-19T10:07:20Z INFO  [worker-1] 队列深度超过阈值 id=2048 队列=834
+2026-09-19T10:23:45Z TRACE [worker-3] unknown level
+2026-09-19T10:07:22Z INFO  [worker-3] 队列深度超过阈值 id=256 队列=303
+2026-09-19T10:07:23Z INFO  [worker-3] task lookup id=unknown
+2026-09-19T10:07:24Z INFO  [worker-2] 队列深度超过阈值 id=1024 队列=161
+2026-09-19T10:07:25Z INFO  [worker-3] 缓存命中率偏低 id=1024
+2026-09-19T10:07:26Z INFO  [worker-1] 队列深度超过阈值 id=512 队列=556
+2026-09-19T10:07:27Z INFO  [worker-1] 连接重置 id=256 重试中
+2026-09-19T10:07:28Z INFO  [scheduler] 队列深度超过阈值 id=8192 队列=860
+2026-09-19T10:07:29Z INFO  [worker-1] 缓存命中率偏低 id=2048
+2026-09-19T10:07:30Z INFO  [scheduler] 缓存命中率偏低 id=1024
+2026-09-19T10:07:31Z ERROR [worker-4] 队列深度超过阈值 id=2048 队列=464
+2026-09-19T10:07:32Z INFO  [worker-2] 任务失败 id=1024 reason=timeout
+2026-09-19T10:07:33Z INFO  [scheduler] 任务完成 id=256 耗时 732ms
+2026-09-19T10:07:34Z INFO  [worker-3] 缓存命中率偏低 id=4096
+2026-09-19T10:07:35Z INFO  [scheduler] 连接重置 id=8192 重试中
+2026-09-19T10:07:36Z INFO  [worker-3] 任务完成 id=256 耗时 337ms
+2026-09-19T10:07:37Z WARN  [worker-1] 任务失败 id=2048 reason=timeout
+2026-09-19T10:07:38Z INFO  [worker-4] 连接重置 id=1024 重试中
+2026-09-19T10:07:39Z INFO  [worker-3] 缓存命中率偏低 id=512
+2026-09-19T10:07:40Z INFO  [scheduler] 任务开始处理 id=2048
+2026-09-19T10:07:41Z INFO  [worker-2] 连接重置 id=8192 重试中
+2026-09-19T10:07:42Z ERROR [worker-4] 缓存命中率偏低 id=2048
+2026-09-19T10:07:43Z INFO  [worker-4] 队列深度超过阈值 id=2048 队列=971
+2026-09-19T10:07:44Z INFO  [worker-4] 缓存命中率偏低 id=1024
+2026-09-19T10:07:45Z INFO  [worker-4] 任务完成 id=1024 耗时 455ms
+2026-09-19T10:07:46Z INFO  [worker-1] 任务失败 id=4096 reason=timeout
+2026-09-19T10:07:47Z INFO  [worker-4] 任务失败 id=2048 reason=timeout
+2026-09-19T10:07:48Z INFO  [reaper] 任务完成 id=2048 耗时 88ms
+2026-09-19T10:07:49Z INFO  [worker-2] 缓存命中率偏低 id=512
+2026-09-19T10:07:50Z INFO  [scheduler] 队列深度超过阈值 id=1024 队列=85
+2026-09-19T10:07:51Z ERROR [worker-3] 队列深度超过阈值 id=8192 队列=873
+2026-09-19T10:07:52Z INFO  [worker-3] 队列深度超过阈值 id=512 队列=936
+2026-09-19T10:07:53Z INFO  [scheduler] 任务开始处理 id=1024
+2026-09-19T10:07:54Z WARN  [worker-3] 缓存命中率偏低 id=8192
+2026-09-19T10:07:55Z INFO  [reaper] 任务完成 id=4096 耗时 870ms
+2026-09-19T10:07:56Z INFO  [reaper] 队列深度超过阈值 id=8192 队列=578
+2026-09-19T10:07:57Z INFO  [scheduler] 任务失败 id=4096 reason=timeout
+2026-09-19T10:07:58Z WARN  [worker-4] 连接重置 id=8192 重试中
+2026-09-19T10:07:59Z INFO  [worker-2] 缓存命中率偏低 id=512
+2026-09-19T10:08:00Z WARN  [worker-2] task lookup id=unknown
+2026-09-19T10:08:01Z WARN  [worker-1] 队列深度超过阈值 id=1024 队列=462
+2026-09-19T10:08:02Z INFO  [reaper] 连接重置 id=8192 重试中
+2026-09-19T10:08:03Z INFO  [worker-2] 缓存命中率偏低 id=2048
+2026-09-19T10:08:04Z INFO  [reaper] 队列深度超过阈值 id=256 队列=344
+2026-09-19T10:08:05Z INFO  [worker-1] 任务完成 id=8192 耗时 505ms
+2026-09-19T10:08:06Z INFO  [worker-4] 任务开始处理 id=512
+2026-09-19T10:08:07Z WARN  [worker-4] 任务失败 id=512 reason=timeout
+2026-09-19T10:08:08Z INFO  [worker-2] 队列深度超过阈值 id=8192 队列=755
+2026-09-19T10:08:09Z INFO  [worker-1] 缓存命中率偏低 id=2048
+2026-09-19T10:08:10Z INFO  [reaper] 任务失败 id=1024 reason=timeout
+2026-09-19T10:08:11Z INFO  [worker-2] 缓存命中率偏低 id=4096
+2026-09-19T10:08:12Z ERROR [worker-2] 任务失败 id=256 reason=timeout
+-- continuation of previous line
+malformed line without structure
+2026-09-19T10:08:15Z INFO  [scheduler] 任务失败 id=512 reason=timeout
+2026-09-19T10:08:16Z INFO  [worker-1] 任务失败 id=512 reason=timeout
+2026-09-19T10:08:17Z INFO  [scheduler] 任务失败 id=256 reason=timeout
+2026-09-19T10:08:18Z INFO  [worker-2] 队列深度超过阈值 id=4096 队列=342
+2026-09-19T10:08:19Z INFO  [worker-1] 任务完成 id=512 耗时 717ms
+2026-09-19T10:08:20Z INFO  [worker-3] 缓存命中率偏低 id=1024
+2026-09-19T10:08:21Z INFO  [scheduler] 连接重置 id=256 重试中
+2026-09-19T10:08:22Z INFO  [worker-4] 连接重置 id=512 重试中
+2026-09-19T10:08:23Z INFO  [worker-2] 任务完成 id=8192 耗时 689ms
+2026-09-19T10:08:24Z INFO  [worker-2] 队列深度超过阈值 id=4096 队列=116
+2026-09-19T10:08:25Z INFO  [worker-1] 任务失败 id=4096 reason=timeout
+2026-09-19T10:08:26Z INFO  [worker-4] 连接重置 id=1024 重试中
+2026-09-19T10:08:27Z INFO  [scheduler] 任务失败 id=1024 reason=timeout
+2026-09-19T10:08:28Z INFO  [reaper] 缓存命中率偏低 id=1024
+2026-09-19T10:08:29Z ERROR [reaper] 任务开始处理 id=256
+2026-09-19T10:08:30Z INFO  [worker-1] 队列深度超过阈值 id=512 队列=40
+2026-09-19T10:08:31Z WARN  [worker-3] 缓存命中率偏低 id=256
+2026-09-19T10:08:32Z INFO  [worker-4] 任务开始处理 id=256
+2026-09-19T10:08:33Z WARN  [worker-3] 队列深度超过阈值 id=1024 队列=475
+2026-09-19T10:08:34Z INFO  [scheduler] 任务完成 id=1024 耗时 382ms
+2026-09-19T10:08:35Z ERROR [worker-1] 队列深度超过阈值 id=8192 队列=572
+2026-09-19T10:08:36Z INFO  [scheduler] 缓存命中率偏低 id=1024
+2026-09-19T10:08:37Z WARN  [reaper] task lookup id=unknown
+2026-09-19T10:08:38Z INFO  [worker-2] 队列深度超过阈值 id=512 队列=744
+2026-09-19T10:08:39Z INFO  [worker-4] 任务开始处理 id=4096
+2026-09-19T10:08:40Z INFO  [scheduler] 任务失败 id=1024 reason=timeout
+2026-09-19T10:08:41Z INFO  [worker-2] 连接重置 id=1024 重试中
+2026-09-19T10:08:42Z INFO  [worker-4] 连接重置 id=4096 重试中
+2026-09-19T10:08:43Z INFO  [worker-2] 任务完成 id=512 耗时 37ms
+2026-09-19T10:23:45Z INFO worker-3 missing brackets
+2026-09-19T10:08:45Z INFO  [worker-1] 缓存命中率偏低 id=256
+2026-09-19T10:08:46Z WARN  [scheduler] 队列深度超过阈值 id=512 队列=380
+2026-09-19T10:08:47Z WARN  [worker-1] 队列深度超过阈值 id=8192 队列=162
+2026-09-19T10:08:48Z INFO  [reaper] 缓存命中率偏低 id=1024
+2026-09-19T10:08:49Z INFO  [scheduler] 任务开始处理 id=2048
+2026-09-19T10:08:50Z INFO  [worker-3] 缓存命中率偏低 id=2048
+2026-09-19T10:08:51Z INFO  [reaper] 任务完成 id=8192 耗时 251ms
+2026-09-19T10:08:52Z ERROR [scheduler] 连接重置 id=2048 重试中
+2026-09-19T10:08:53Z INFO  [worker-2] 缓存命中率偏低 id=2048
+2026-09-19T10:08:54Z INFO  [worker-2] 缓存命中率偏低 id=1024
+2026-09-19T10:08:55Z INFO  [worker-3] 任务失败 id=4096 reason=timeout
+2026-09-19T10:08:56Z WARN  [worker-2] 缓存命中率偏低 id=8192
+2026-09-19T10:08:57Z INFO  [worker-2] 任务开始处理 id=256
+2026-09-19T10:08:58Z INFO  [worker-3] 任务开始处理 id=512
+2026-09-19T10:08:59Z INFO  [worker-3] 缓存命中率偏低 id=256
+2026-09-19T10:09:00Z INFO  [worker-3] 任务完成 id=8192 耗时 329ms
+2026-09-19T10:09:01Z INFO  [worker-4] 缓存命中率偏低 id=8192
+2026-09-19T10:09:02Z INFO  [worker-4] 缓存命中率偏低 id=8192
+2026-09-19T10:09:03Z WARN  [worker-3] 连接重置 id=1024 重试中
+2026-09-19T10:09:04Z INFO  [worker-1] 任务完成 id=2048 耗时 196ms
+2026-09-19T10:09:05Z INFO  [scheduler] 任务失败 id=1024 reason=timeout
+2026-09-19T10:09:06Z INFO  [reaper] 任务失败 id=512 reason=timeout
+2026-09-19T10:09:07Z INFO  [worker-2] 队列深度超过阈值 id=8192 队列=79
+2026-09-19T10:09:08Z WARN  [reaper] 连接重置 id=256 重试中
+2026-09-19T10:09:09Z WARN  [scheduler] 队列深度超过阈值 id=512 队列=149
+2026-09-19T10:09:10Z INFO  [scheduler] 任务开始处理 id=4096
+2026-09-19T10:09:11Z WARN  [scheduler] 队列深度超过阈值 id=1024 队列=320
+2026-09-19T10:09:12Z INFO  [worker-2] 任务开始处理 id=1024
+2026-09-19T10:09:13Z INFO  [reaper] 任务开始处理 id=8192
+2026-09-19T10:09:14Z INFO  [worker-2] task lookup id=unknown
+2026-09-19T10:09:15Z INFO  [worker-3] 任务失败 id=256 reason=timeout
+2026-09-19T10:09:16Z INFO  [worker-1] 任务失败 id=8192 reason=timeout
+2026-09-19T10:09:17Z WARN  [worker-3] 任务开始处理 id=8192
+2026-09-19T10:09:18Z INFO  [worker-2] 任务完成 id=1024 耗时 716ms
+2026-09-19T10:09:19Z INFO  [worker-2] 任务完成 id=2048 耗时 160ms
+2026-09-19T10:09:20Z INFO  [scheduler] 缓存命中率偏低 id=256
+2026-09-19T10:09:21Z INFO  [worker-2] 缓存命中率偏低 id=256
+2026-09-19T10:09:22Z INFO  [reaper] 缓存命中率偏低 id=1024
+2026-09-19T10:23:45Z TRACE [worker-3] unknown level
+2026-09-19T10:09:24Z WARN  [reaper] 缓存命中率偏低 id=2048
+2026-09-19T10:09:25Z INFO  [reaper] 缓存命中率偏低 id=4096
+2026-09-19T10:09:26Z INFO  [scheduler] 缓存命中率偏低 id=4096
+2026-09-19T10:09:27Z INFO  [reaper] 缓存命中率偏低 id=512
+2026-13-45T99:99:99Z INFO [worker-3] bad timestamp
+2026-09-19T10:09:29Z INFO  [scheduler] 缓存命中率偏低 id=4096
+2026-09-19T10:09:30Z INFO  [worker-4] 任务开始处理 id=2048
+2026-09-19T10:09:31Z INFO  [scheduler] 任务开始处理 id=256
+2026-09-19T10:09:32Z INFO  [worker-4] 任务完成 id=2048 耗时 765ms
+2026-09-19T10:09:33Z INFO  [reaper] 队列深度超过阈值 id=8192 队列=263
+2026-09-19T10:09:34Z WARN  [reaper] 队列深度超过阈值 id=256 队列=105
+2026-09-19T10:09:35Z INFO  [scheduler] 缓存命中率偏低 id=256
+2026-09-19T10:09:36Z INFO  [reaper] 队列深度超过阈值 id=8192 队列=29
+2026-09-19T10:09:37Z INFO  [worker-4] 缓存命中率偏低 id=1024
+2026-09-19T10:09:38Z INFO  [worker-2] 队列深度超过阈值 id=1024 队列=81
+2026-09-19T10:09:39Z INFO  [worker-1] 任务开始处理 id=512
+2026-09-19T10:09:40Z INFO  [worker-4] 队列深度超过阈值 id=4096 队列=532
+2026-09-19T10:09:41Z INFO  [worker-3] 连接重置 id=8192 重试中
+2026-09-19T10:09:42Z WARN  [worker-1] 队列深度超过阈值 id=8192 队列=151
+2026-09-19T10:09:43Z INFO  [worker-4] 队列深度超过阈值 id=8192 队列=861
+2026-09-19T10:09:44Z INFO  [worker-1] 缓存命中率偏低 id=256
+2026-09-19T10:09:45Z WARN  [worker-4] 任务开始处理 id=2048
+2026-09-19T10:09:46Z INFO  [worker-2] 任务完成 id=512 耗时 161ms
+2026-09-19T10:09:47Z INFO  [scheduler] 任务完成 id=1024 耗时 732ms
+2026-09-19T10:09:48Z WARN  [worker-1] 缓存命中率偏低 id=8192
+2026-09-19T10:09:49Z INFO  [worker-2] 任务失败 id=4096 reason=timeout
+2026-09-19T10:09:50Z INFO  [worker-3] 任务失败 id=2048 reason=timeout
+2026-09-19T10:09:51Z WARN  [worker-4] task lookup id=unknown
+2026-09-19T10:09:52Z INFO  [scheduler] 连接重置 id=512 重试中
+2026-09-19T10:09:53Z WARN  [worker-4] 队列深度超过阈值 id=4096 队列=858
+2026-09-19T10:09:54Z WARN  [worker-2] 队列深度超过阈值 id=1024 队列=72
+2026-09-19T10:09:55Z INFO  [worker-1] 连接重置 id=8192 重试中
+2026-09-19T10:09:56Z INFO  [scheduler] 任务完成 id=1024 耗时 848ms
+2026-09-19T10:09:57Z INFO  [scheduler] 连接重置 id=512 重试中
+2026-09-19T10:09:58Z INFO  [reaper] 任务失败 id=4096 reason=timeout
+2026-09-19T10:09:59Z INFO  [worker-3] 连接重置 id=2048 重试中
+2026-09-19T10:10:00Z INFO  [worker-1] 任务开始处理 id=4096
+2026-09-19T10:10:01Z INFO  [worker-4] 任务开始处理 id=8192
+2026-09-19T10:10:02Z INFO  [scheduler] 任务失败 id=8192 reason=timeout
+2026-09-19T10:10:03Z INFO  [worker-3] 任务开始处理 id=512
+2026-09-19T10:10:04Z INFO  [worker-3] 任务失败 id=8192 reason=timeout
+2026-09-19T10:10:05Z INFO  [scheduler] 缓存命中率偏低 id=256
+2026-09-19T10:10:06Z INFO  [worker-1] 连接重置 id=1024 重试中
+2026-09-19T10:10:07Z INFO  [worker-1] 任务失败 id=1024 reason=timeout
+2026-09-19T10:10:08Z INFO  [worker-1] 连接重置 id=256 重试中
+2026-09-19T10:10:09Z ERROR [worker-2] 缓存命中率偏低 id=2048
+2026-09-19T10:10:10Z INFO  [scheduler] 任务开始处理 id=1024
+2026-09-19T10:10:11Z INFO  [worker-1] 任务失败 id=8192 reason=timeout
+2026-09-19T10:10:12Z INFO  [worker-1] 缓存命中率偏低 id=256
+2026-09-19T10:10:13Z INFO  [reaper] 连接重置 id=8192 重试中
+2026-09-19T10:10:14Z INFO  [worker-3] 任务开始处理 id=1024
+2026-09-19T10:10:15Z INFO  [scheduler] 任务完成 id=2048 耗时 215ms
+2026-09-19T10:10:16Z INFO  [worker-4] 任务完成 id=1024 耗时 383ms
+2026-09-19T10:10:17Z INFO  [worker-4] 任务完成 id=2048 耗时 502ms
+2026-09-19T10:10:18Z INFO  [worker-3] 队列深度超过阈值 id=8192 队列=983
+2026-09-19T10:10:19Z INFO  [worker-1] 任务完成 id=4096 耗时 519ms
+2026-09-19T10:10:20Z INFO  [worker-3] 缓存命中率偏低 id=2048
+2026-09-19T10:10:21Z INFO  [worker-3] 任务开始处理 id=256
+2026-09-19T10:10:22Z INFO  [worker-4] 队列深度超过阈值 id=512 队列=559
+2026-09-19T10:10:23Z ERROR [scheduler] 缓存命中率偏低 id=256
+2026-09-19T10:10:24Z INFO  [worker-3] 连接重置 id=1024 重试中
+2026-09-19T10:10:25Z INFO  [worker-4] 队列深度超过阈值 id=256 队列=501
+2026-09-19T10:10:26Z INFO  [worker-3] 连接重置 id=256 重试中
+2026-09-19T10:10:27Z INFO  [worker-2] 缓存命中率偏低 id=4096
+2026-09-19T10:10:28Z INFO  [worker-3] task lookup id=unknown
+2026-09-19T10:10:29Z INFO  [worker-2] 任务完成 id=512 耗时 32ms
+2026-09-19T10:10:30Z INFO  [reaper] 任务开始处理 id=4096
+2026-09-19T10:10:31Z WARN  [reaper] 队列深度超过阈值 id=1024 队列=157
+2026-09-19T10:10:32Z INFO  [worker-4] 任务完成 id=512 耗时 622ms
+2026-09-19T10:10:33Z INFO  [worker-3] 连接重置 id=512 重试中
+2026-09-19T10:10:34Z INFO  [reaper] 队列深度超过阈值 id=8192 队列=125
+2026-09-19T10:10:35Z INFO  [scheduler] 任务失败 id=1024 reason=timeout
+2026-09-19T10:10:36Z INFO  [scheduler] 任务失败 id=1024 reason=timeout
+2026-09-19T10:10:37Z WARN  [worker-4] 任务失败 id=1024 reason=timeout
+2026-09-19T10:10:38Z INFO  [worker-4] 任务失败 id=2048 reason=timeout
+2026-09-19T10:10:39Z WARN  [reaper] 任务开始处理 id=4096
+2026-09-19T10:10:40Z INFO  [worker-1] 连接重置 id=512 重试中
+2026-09-19T10:10:41Z INFO  [worker-2] 任务失败 id=4096 reason=timeout
+2026-09-19T10:10:42Z INFO  [reaper] 队列深度超过阈值 id=2048 队列=868
+2026-09-19T10:23:45Z INFO worker-3 missing brackets
+2026-09-19T10:10:44Z INFO  [worker-4] 队列深度超过阈值 id=2048 队列=691
+2026-09-19T10:10:45Z INFO  [worker-1] 任务完成 id=1024 耗时 203ms
+2026-09-19T10:10:46Z ERROR [worker-4] 连接重置 id=4096 重试中
+2026-09-19T10:10:47Z INFO  [reaper] 任务失败 id=512 reason=timeout
+2026-09-19T10:10:48Z INFO  [worker-2] 任务完成 id=8192 耗时 203ms
+2026-09-19T10:10:49Z INFO  [reaper] 任务失败 id=1024 reason=timeout
+2026-09-19T10:10:50Z INFO  [worker-3] 任务开始处理 id=256
+2026-09-19T10:10:51Z INFO  [worker-2] 连接重置 id=256 重试中
+2026-09-19T10:10:52Z INFO  [worker-3] 任务开始处理 id=1024
+2026-09-19T10:10:53Z INFO  [worker-2] 连接重置 id=1024 重试中
+2026-09-19T10:10:54Z INFO  [worker-3] 缓存命中率偏低 id=256
+2026-09-19T10:10:55Z INFO  [reaper] 队列深度超过阈值 id=1024 队列=447
+2026-09-19T10:10:56Z INFO  [worker-4] 任务失败 id=4096 reason=timeout
+2026-09-19T10:10:57Z INFO  [worker-3] 连接重置 id=8192 重试中
+2026-09-19T10:10:58Z INFO  [worker-3] 缓存命中率偏低 id=1024
+2026-09-19T10:10:59Z INFO  [worker-3] 任务失败 id=256 reason=timeout
+2026-09-19T10:11:00Z INFO  [reaper] 任务失败 id=8192 reason=timeout
+2026-09-19T10:11:01Z INFO  [worker-3] 任务完成 id=512 耗时 34ms
+2026-09-19T10:11:02Z WARN  [worker-2] 任务失败 id=256 reason=timeout
+2026-09-19T10:11:03Z INFO  [scheduler] 队列深度超过阈值 id=2048 队列=514
+2026-09-19T10:11:04Z INFO  [worker-2] 连接重置 id=512 重试中
+2026-09-19T10:11:05Z INFO  [scheduler] task lookup id=unknown
+2026-09-19T10:11:06Z INFO  [worker-1] 任务失败 id=8192 reason=timeout
+2026-09-19T10:11:07Z INFO  [reaper] 任务开始处理 id=8192
+2026-09-19T10:11:08Z INFO  [worker-1] 连接重置 id=1024 重试中
+2026-09-19T10:11:09Z INFO  [worker-4] 队列深度超过阈值 id=1024 队列=808
+2026-09-19T10:11:10Z INFO  [scheduler] 缓存命中率偏低 id=256
+2026-09-19T10:11:11Z INFO  [worker-1] 缓存命中率偏低 id=1024
+2026-09-19T10:11:12Z INFO  [worker-3] 任务开始处理 id=2048
+2026-09-19T10:11:13Z INFO  [worker-2] 任务失败 id=8192 reason=timeout
+2026-09-19T10:11:14Z WARN  [worker-1] 任务开始处理 id=2048
+2026-09-19T10:11:15Z ERROR [reaper] 任务开始处理 id=1024
+2026-09-19T10:11:16Z INFO  [worker-3] 缓存命中率偏低 id=8192
+2026-09-19T10:11:17Z WARN  [worker-4] 任务完成 id=512 耗时 643ms
+2026-09-19T10:11:18Z INFO  [worker-3] 连接重置 id=8192 重试中
+-- continuation of previous line
+2026-09-19T10:11:20Z WARN  [worker-3] 任务失败 id=4096 reason=timeout
+2026-09-19T10:11:21Z WARN  [worker-2] 缓存命中率偏低 id=256
+2026-09-19T10:11:22Z INFO  [worker-2] 任务失败 id=256 reason=timeout
+2026-09-19T10:11:23Z INFO  [worker-3] 缓存命中率偏低 id=256
+2026-09-19T10:11:24Z INFO  [scheduler] 任务完成 id=1024 耗时 46ms
+2026-09-19T10:11:25Z INFO  [reaper] 缓存命中率偏低 id=256
+2026-09-19T10:11:26Z INFO  [reaper] 缓存命中率偏低 id=8192
+2026-09-19T10:11:27Z INFO  [reaper] 任务完成 id=512 耗时 778ms
+2026-09-19T10:11:28Z ERROR [worker-1] 任务开始处理 id=2048
+2026-09-19T10:11:29Z INFO  [worker-2] 任务失败 id=8192 reason=timeout
+2026-09-19T10:11:30Z INFO  [worker-1] 连接重置 id=2048 重试中
+2026-09-19T10:11:31Z INFO  [worker-3] 任务开始处理 id=4096
+2026-09-19T10:11:32Z WARN  [worker-2] 任务开始处理 id=4096
+2026-09-19T10:11:33Z INFO  [worker-3] 队列深度超过阈值 id=512 队列=355
+2026-09-19T10:11:34Z INFO  [worker-2] 任务失败 id=2048 reason=timeout
+2026-09-19T10:11:35Z INFO  [reaper] 任务失败 id=1024 reason=timeout
+2026-09-19T10:11:36Z WARN  [scheduler] 缓存命中率偏低 id=8192
+2026-09-19T10:11:37Z INFO  [reaper] 连接重置 id=512 重试中
+2026-09-19T10:11:38Z WARN  [reaper] 任务完成 id=2048 耗时 59ms
+2026-09-19T10:11:39Z INFO  [worker-4] 任务失败 id=512 reason=timeout
+2026-09-19T10:11:40Z INFO  [scheduler] 任务完成 id=2048 耗时 119ms
+2026-09-19T10:11:41Z INFO  [worker-2] 任务开始处理 id=8192
+2026-09-19T10:11:42Z INFO  [worker-1] task lookup id=unknown
+2026-09-19T10:11:43Z INFO  [worker-4] 连接重置 id=256 重试中
+2026-09-19T10:11:44Z INFO  [worker-1] 任务开始处理 id=2048
+2026-09-19T10:11:45Z WARN  [worker-1] 缓存命中率偏低 id=512
+2026-09-19T10:11:46Z WARN  [worker-3] 任务完成 id=2048 耗时 110ms
+2026-09-19T10:11:47Z INFO  [scheduler] 缓存命中率偏低 id=1024
+2026-09-19T10:11:48Z ERROR [worker-4] 连接重置 id=2048 重试中
+2026-09-19T10:11:49Z INFO  [worker-4] 任务开始处理 id=4096
+2026-09-19T10:11:50Z INFO  [worker-4] 缓存命中率偏低 id=512
+2026-09-19T10:11:51Z INFO  [worker-1] 缓存命中率偏低 id=1024
+2026-09-19T10:11:52Z INFO  [scheduler] 任务开始处理 id=4096
+2026-09-19T10:11:53Z INFO  [worker-3] 任务完成 id=8192 耗时 560ms
+2026-09-19T10:11:54Z ERROR [worker-4] 任务失败 id=8192 reason=timeout
+2026-09-19T10:11:55Z WARN  [reaper] 任务开始处理 id=8192
+2026-09-19T10:11:56Z WARN  [reaper] 任务开始处理 id=4096
+2026-09-19T10:11:57Z INFO  [worker-2] 任务开始处理 id=1024
+2026-09-19T10:11:58Z INFO  [worker-2] 任务开始处理 id=256
+2026-09-19T10:11:59Z INFO  [worker-3] 队列深度超过阈值 id=2048 队列=661
+2026-09-19T10:12:00Z INFO  [worker-1] 任务失败 id=2048 reason=timeout
+2026-09-19T10:12:01Z INFO  [scheduler] 缓存命中率偏低 id=256
+2026-09-19T10:12:02Z INFO  [reaper] 任务失败 id=256 reason=timeout
+2026-09-19T10:12:03Z INFO  [worker-3] 队列深度超过阈值 id=1024 队列=320
+2026-09-19T10:12:04Z INFO  [reaper] 队列深度超过阈值 id=256 队列=150
+2026-09-19T10:12:05Z ERROR [reaper] 任务失败 id=2048 reason=timeout
+2026-09-19T10:12:06Z INFO  [reaper] 任务失败 id=2048 reason=timeout
+2026-09-19T10:12:07Z INFO  [worker-1] 连接重置 id=512 重试中
+2026-09-19T10:12:08Z INFO  [worker-3] 连接重置 id=4096 重试中
+2026-09-19T10:12:09Z INFO  [worker-1] 任务失败 id=8192 reason=timeout
+2026-09-19T10:12:10Z ERROR [worker-4] 队列深度超过阈值 id=1024 队列=431
+2026-09-19T10:12:11Z INFO  [reaper] 缓存命中率偏低 id=512
+2026-09-19T10:12:12Z INFO  [worker-4] 缓存命中率偏低 id=4096
+2026-09-19T10:12:13Z INFO  [scheduler] 缓存命中率偏低 id=512
+2026-09-19T10:12:14Z INFO  [worker-1] 任务失败 id=4096 reason=timeout
+2026-09-19T10:12:15Z INFO  [worker-4] 连接重置 id=1024 重试中
+2026-09-19T10:12:16Z ERROR [worker-4] 连接重置 id=256 重试中
+2026-09-19T10:12:17Z INFO  [scheduler] 任务开始处理 id=4096
+2026-09-19T10:12:18Z WARN  [worker-4] 连接重置 id=8192 重试中
+2026-09-19T10:12:19Z INFO  [worker-1] task lookup id=unknown
+2026-09-19T10:12:20Z INFO  [reaper] 任务开始处理 id=2048
+2026-09-19T10:12:21Z INFO  [reaper] 队列深度超过阈值 id=4096 队列=362
+2026-09-19T10:12:22Z INFO  [worker-1] 队列深度超过阈值 id=512 队列=204
+2026-09-19T10:12:23Z INFO  [scheduler] 缓存命中率偏低 id=256
+2026-09-19T10:12:24Z INFO  [worker-2] 任务完成 id=4096 耗时 17ms
+2026-09-19T10:12:25Z INFO  [reaper] 连接重置 id=512 重试中
+2026-09-19T10:12:26Z INFO  [worker-1] 连接重置 id=4096 重试中
+2026-09-19T10:12:27Z INFO  [scheduler] 缓存命中率偏低 id=512
+2026-09-19T10:12:28Z INFO  [worker-1] 任务失败 id=512 reason=timeout
+2026-09-19T10:12:29Z INFO  [worker-1] 任务完成 id=512 耗时 320ms
+2026-09-19T10:12:30Z INFO  [worker-1] 任务完成 id=4096 耗时 100ms
+2026-09-19T10:12:31Z INFO  [worker-3] 队列深度超过阈值 id=512 队列=257
+2026-09-19T10:12:32Z INFO  [scheduler] 缓存命中率偏低 id=2048
+2026-09-19T10:12:33Z INFO  [scheduler] 任务开始处理 id=512
+2026-09-19T10:12:34Z INFO  [worker-1] 任务开始处理 id=1024
+2026-09-19T10:12:35Z INFO  [scheduler] 连接重置 id=1024 重试中
+2026-09-19T10:12:36Z INFO  [worker-1] 缓存命中率偏低 id=8192
+2026-09-19T10:12:37Z INFO  [worker-4] 任务开始处理 id=1024
+2026-09-19T10:12:38Z WARN  [worker-1] 队列深度超过阈值 id=4096 队列=111
+2026-09-19T10:12:39Z INFO  [worker-2] 任务失败 id=256 reason=timeout
+malformed line without structure
+2026-09-19T10:12:41Z INFO  [scheduler] 连接重置 id=256 重试中
+2026-09-19T10:23:45Z TRACE [worker-3] unknown level
+2026-09-19T10:12:43Z INFO  [reaper] 任务完成 id=4096 耗时 646ms
+2026-09-19T10:12:44Z INFO  [worker-2] 任务失败 id=4096 reason=timeout
+2026-09-19T10:12:45Z INFO  [reaper] 缓存命中率偏低 id=4096
+2026-09-19T10:12:46Z INFO  [worker-2] 任务完成 id=2048 耗时 257ms
+2026-09-19T10:12:47Z INFO  [reaper] 队列深度超过阈值 id=8192 队列=31
+2026-09-19T10:12:48Z INFO  [worker-4] 缓存命中率偏低 id=1024
+2026-09-19T10:12:49Z ERROR [worker-3] 连接重置 id=2048 重试中
+2026-09-19T10:12:50Z INFO  [worker-1] 连接重置 id=4096 重试中
+2026-09-19T10:12:51Z INFO  [scheduler] 缓存命中率偏低 id=4096
+2026-09-19T10:12:52Z INFO  [reaper] 任务完成 id=256 耗时 612ms
+2026-09-19T10:12:53Z WARN  [worker-3] 任务开始处理 id=2048
+2026-09-19T10:12:54Z WARN  [reaper] 连接重置 id=8192 重试中
+2026-09-19T10:12:55Z INFO  [worker-2] 连接重置 id=1024 重试中
+2026-09-19T10:12:56Z INFO  [worker-2] task lookup id=unknown
+2026-09-19T10:12:57Z INFO  [worker-4] 任务失败 id=256 reason=timeout
+2026-09-19T10:12:58Z INFO  [worker-3] 任务开始处理 id=2048
+2026-09-19T10:12:59Z INFO  [worker-1] 连接重置 id=2048 重试中
+2026-09-19T10:13:00Z INFO  [worker-2] 缓存命中率偏低 id=4096
+2026-09-19T10:13:01Z INFO  [worker-3] 队列深度超过阈值 id=2048 队列=692
+not a timestamp INFO [worker-3] hi
+2026-09-19T10:13:03Z INFO  [worker-3] 任务开始处理 id=256
+2026-09-19T10:13:04Z INFO  [worker-2] 缓存命中率偏低 id=1024
+2026-09-19T10:13:05Z WARN  [reaper] 任务开始处理 id=256
+2026-09-19T10:13:06Z INFO  [worker-2] 缓存命中率偏低 id=2048
+2026-09-19T10:13:07Z INFO  [worker-2] 任务失败 id=1024 reason=timeout
+2026-09-19T10:13:08Z INFO  [worker-3] 队列深度超过阈值 id=1024 队列=444
+2026-09-19T10:13:09Z INFO  [worker-2] 任务失败 id=512 reason=timeout
+2026-09-19T10:13:10Z INFO  [worker-3] 队列深度超过阈值 id=8192 队列=398
+2026-09-19T10:13:11Z WARN  [worker-3] 缓存命中率偏低 id=8192
+2026-09-19T10:13:12Z INFO  [worker-3] 任务开始处理 id=4096
+2026-09-19T10:13:13Z WARN  [worker-4] 任务完成 id=512 耗时 119ms
+2026-09-19T10:13:14Z INFO  [worker-4] 连接重置 id=1024 重试中
+2026-09-19T10:13:15Z INFO  [worker-1] 任务失败 id=512 reason=timeout
+2026-09-19T10:13:16Z INFO  [reaper] 任务开始处理 id=512
+2026-09-19T10:13:17Z INFO  [worker-2] 任务完成 id=512 耗时 489ms
+2026-09-19T10:13:18Z INFO  [worker-4] 队列深度超过阈值 id=512 队列=287
+2026-09-19T10:13:19Z INFO  [scheduler] 缓存命中率偏低 id=256
+2026-09-19T10:23:45Z TRACE [worker-3] unknown level
+2026-09-19T10:13:21Z INFO  [worker-1] 任务失败 id=512 reason=timeout
+2026-09-19T10:13:22Z INFO  [worker-3] 队列深度超过阈值 id=4096 队列=992
+2026-09-19T10:13:23Z INFO  [worker-3] 任务完成 id=512 耗时 410ms
+2026-09-19T10:13:24Z INFO  [worker-4] 缓存命中率偏低 id=256
+2026-09-19T10:13:25Z INFO  [reaper] 缓存命中率偏低 id=512
+2026-09-19T10:13:26Z INFO  [reaper] 连接重置 id=2048 重试中
+2026-09-19T10:13:27Z WARN  [worker-2] 缓存命中率偏低 id=4096
+2026-09-19T10:13:28Z INFO  [reaper] 任务失败 id=2048 reason=timeout
+2026-09-19T10:13:29Z INFO  [worker-2] 任务开始处理 id=256
+2026-09-19T10:13:30Z ERROR [worker-2] 缓存命中率偏低 id=256
+2026-09-19T10:13:31Z WARN  [worker-2] 队列深度超过阈值 id=1024 队列=398
+2026-09-19T10:13:32Z INFO  [worker-2] 任务完成 id=1024 耗时 641ms
+2026-09-19T10:13:33Z INFO  [worker-3] task lookup id=unknown
+2026-09-19T10:13:34Z INFO  [worker-1] 任务失败 id=512 reason=timeout
+2026-09-19T10:13:35Z WARN  [worker-2] 任务完成 id=2048 耗时 665ms
+2026-09-19T10:13:36Z INFO  [reaper] 任务完成 id=256 耗时 60ms
+2026-09-19T10:13:37Z INFO  [worker-1] 缓存命中率偏低 id=256
+2026-09-19T10:13:38Z INFO  [worker-4] 连接重置 id=256 重试中
+2026-09-19T10:13:39Z INFO  [worker-4] 连接重置 id=512 重试中
+2026-09-19T10:13:40Z WARN  [worker-1] 任务完成 id=4096 耗时 541ms
+2026-09-19T10:13:41Z INFO  [worker-3] 任务完成 id=1024 耗时 556ms
+2026-09-19T10:13:42Z ERROR [worker-2] 缓存命中率偏低 id=2048
+2026-09-19T10:13:43Z INFO  [scheduler] 连接重置 id=2048 重试中
+2026-09-19T10:13:44Z WARN  [scheduler] 任务开始处理 id=1024
+2026-09-19T10:13:45Z INFO  [worker-3] 任务完成 id=2048 耗时 767ms
+2026-09-19T10:13:46Z INFO  [worker-3] 任务开始处理 id=1024
+2026-09-19T10:13:47Z INFO  [worker-2] 队列深度超过阈值 id=512 队列=34
+2026-09-19T10:13:48Z INFO  [worker-3] 连接重置 id=256 重试中
+2026-09-19T10:13:49Z INFO  [reaper] 队列深度超过阈值 id=1024 队列=960
+2026-09-19T10:13:50Z INFO  [reaper] 缓存命中率偏低 id=2048
+2026-09-19T10:13:51Z INFO  [scheduler] 任务完成 id=512 耗时 469ms
+2026-09-19T10:13:52Z INFO  [worker-2] 缓存命中率偏低 id=256
+2026-09-19T10:13:53Z INFO  [worker-3] 缓存命中率偏低 id=4096
+2026-09-19T10:13:54Z INFO  [reaper] 任务完成 id=256 耗时 71ms
+2026-09-19T10:13:55Z INFO  [worker-4] 任务完成 id=4096 耗时 617ms
+2026-09-19T10:13:56Z INFO  [reaper] 任务完成 id=256 耗时 900ms
+2026-09-19T10:13:57Z INFO  [reaper] 任务开始处理 id=2048
+2026-09-19T10:13:58Z INFO  [reaper] 连接重置 id=256 重试中
+2026-09-19T10:13:59Z INFO  [worker-4] 队列深度超过阈值 id=8192 队列=266
+2026-09-19T10:14:00Z INFO  [scheduler] 任务完成 id=4096 耗时 548ms
+2026-09-19T10:14:01Z INFO  [reaper] 任务失败 id=8192 reason=timeout
+2026-09-19T10:14:02Z WARN  [worker-4] 缓存命中率偏低 id=8192
+2026-09-19T10:14:03Z INFO  [scheduler] 任务失败 id=8192 reason=timeout
+2026-09-19T10:14:04Z WARN  [worker-2] 任务失败 id=1024 reason=timeout
+2026-09-19T10:14:05Z INFO  [worker-1] 连接重置 id=4096 重试中
+2026-09-19T10:14:06Z INFO  [worker-2] 任务失败 id=4096 reason=timeout
+2026-09-19T10:14:07Z INFO  [worker-2] 任务完成 id=4096 耗时 199ms
+2026-09-19T10:14:08Z INFO  [worker-2] 队列深度超过阈值 id=512 队列=305
+2026-09-19T10:14:09Z INFO  [reaper] 缓存命中率偏低 id=512
+2026-09-19T10:14:10Z INFO  [reaper] task lookup id=unknown
+2026-09-19T10:14:11Z INFO  [worker-2] 连接重置 id=256 重试中
+2026-09-19T10:14:12Z INFO  [scheduler] 队列深度超过阈值 id=2048 队列=378
+2026-09-19T10:14:13Z INFO  [scheduler] 任务失败 id=256 reason=timeout
+2026-09-19T10:14:14Z INFO  [worker-2] 队列深度超过阈值 id=512 队列=549
+2026-09-19T10:14:15Z INFO  [worker-3] 任务开始处理 id=1024
+2026-09-19T10:14:16Z INFO  [worker-4] 连接重置 id=512 重试中
+2026-09-19T10:14:17Z INFO  [reaper] 缓存命中率偏低 id=512
+2026-09-19T10:14:18Z INFO  [worker-1] 任务失败 id=4096 reason=timeout
+2026-09-19T10:14:19Z ERROR [scheduler] 任务开始处理 id=256
+2026-09-19T10:14:20Z INFO  [worker-4] 任务开始处理 id=1024
+2026-09-19T10:14:21Z INFO  [worker-2] 任务开始处理 id=2048
+2026-09-19T10:14:22Z WARN  [worker-2] 队列深度超过阈值 id=512 队列=81
+2026-09-19T10:14:23Z INFO  [reaper] 任务完成 id=4096 耗时 816ms
+2026-09-19T10:14:24Z WARN  [worker-3] 任务开始处理 id=1024
+2026-09-19T10:14:25Z WARN  [worker-1] 任务开始处理 id=256
+2026-09-19T10:14:26Z ERROR [scheduler] 任务失败 id=4096 reason=timeout
+2026-09-19T10:14:27Z INFO  [scheduler] 任务失败 id=4096 reason=timeout
+2026-09-19T10:14:28Z INFO  [worker-3] 连接重置 id=8192 重试中
+2026-09-19T10:14:29Z WARN  [scheduler] 任务开始处理 id=4096
+2026-09-19T10:14:30Z INFO  [worker-2] 连接重置 id=2048 重试中
+2026-09-19T10:14:31Z INFO  [scheduler] 任务完成 id=1024 耗时 634ms
+2026-09-19T10:14:32Z INFO  [worker-4] 连接重置 id=256 重试中
+2026-09-19T10:14:33Z WARN  [worker-3] 任务失败 id=4096 reason=timeout
+2026-09-19T10:14:34Z INFO  [scheduler] 连接重置 id=1024 重试中
+2026-09-19T10:14:35Z INFO  [worker-3] 任务开始处理 id=8192
+2026-09-19T10:14:36Z INFO  [worker-1] 任务完成 id=512 耗时 36ms
+2026-09-19T10:14:37Z INFO  [worker-2] 缓存命中率偏低 id=4096
+2026-09-19T10:14:38Z WARN  [reaper] 任务完成 id=512 耗时 566ms
+2026-09-19T10:14:39Z WARN  [worker-2] 队列深度超过阈值 id=512 队列=525
+2026-09-19T10:14:40Z INFO  [scheduler] 任务完成 id=1024 耗时 581ms
+2026-09-19T10:14:41Z INFO  [worker-2] 任务完成 id=4096 耗时 157ms
+2026-09-19T10:14:42Z INFO  [scheduler] 任务失败 id=8192 reason=timeout
+2026-09-19T10:14:43Z INFO  [worker-2] 任务失败 id=4096 reason=timeout
+2026-09-19T10:14:44Z ERROR [scheduler] 连接重置 id=512 重试中
+2026-09-19T10:14:45Z INFO  [worker-1] 队列深度超过阈值 id=256 队列=193
+2026-09-19T10:14:46Z INFO  [worker-2] 任务开始处理 id=2048
+2026-09-19T10:14:47Z INFO  [scheduler] task lookup id=unknown
+2026-09-19T10:14:48Z INFO  [scheduler] 队列深度超过阈值 id=256 队列=323
+2026-09-19T10:14:49Z INFO  [worker-1] 任务失败 id=1024 reason=timeout
+2026-09-19T10:14:50Z WARN  [worker-4] 任务开始处理 id=1024
+2026-09-19T10:14:51Z INFO  [worker-3] 任务完成 id=512 耗时 176ms
+2026-09-19T10:14:52Z INFO  [worker-3] 任务开始处理 id=1024
+2026-09-19T10:14:53Z INFO  [worker-1] 任务开始处理 id=512
+2026-09-19T10:14:54Z ERROR [worker-1] 任务完成 id=1024 耗时 279ms
+2026-09-19T10:14:55Z INFO  [worker-3] 任务开始处理 id=512
+2026-09-19T10:14:56Z INFO  [reaper] 队列深度超过阈值 id=256 队列=140
+2026-09-19T10:14:57Z INFO  [worker-1] 连接重置 id=2048 重试中
+2026-09-19T10:23:45Z TRACE [worker-3] unknown level
+2026-09-19T10:14:59Z INFO  [reaper] 缓存命中率偏低 id=2048
+2026-09-19T10:15:00Z INFO  [scheduler] 队列深度超过阈值 id=4096 队列=975
+2026-09-19T10:15:01Z INFO  [reaper] 任务开始处理 id=8192
+2026-09-19T10:15:02Z INFO  [worker-4] 任务开始处理 id=4096
+2026-09-19T10:15:03Z INFO  [worker-4] 队列深度超过阈值 id=512 队列=834
+2026-09-19T10:15:04Z INFO  [worker-1] 缓存命中率偏低 id=4096
+2026-09-19T10:15:05Z INFO  [worker-4] 缓存命中率偏低 id=4096
+2026-09-19T10:15:06Z ERROR [worker-1] 任务开始处理 id=1024
+2026-09-19T10:15:07Z WARN  [worker-2] 队列深度超过阈值 id=512 队列=108
+2026-09-19T10:15:08Z INFO  [scheduler] 任务完成 id=512 耗时 370ms
+2026-09-19T10:15:09Z INFO  [worker-4] 队列深度超过阈值 id=512 队列=491
+2026-09-19T10:15:10Z WARN  [worker-4] 任务完成 id=8192 耗时 646ms
+2026-09-19T10:15:11Z INFO  [worker-3] 连接重置 id=4096 重试中
+2026-09-19T10:15:12Z INFO  [worker-4] 缓存命中率偏低 id=512
+2026-09-19T10:15:13Z INFO  [reaper] 任务完成 id=2048 耗时 40ms
+2026-09-19T10:15:14Z INFO  [worker-2] 连接重置 id=4096 重试中
+2026-09-19T10:15:15Z INFO  [worker-2] 任务开始处理 id=1024
+2026-09-19T10:15:16Z INFO  [worker-4] 任务开始处理 id=8192
+2026-09-19T10:15:17Z INFO  [worker-1] 任务完成 id=512 耗时 597ms
+2026-09-19T10:15:18Z INFO  [worker-4] 任务完成 id=4096 耗时 314ms
+2026-09-19T10:15:19Z WARN  [scheduler] 连接重置 id=256 重试中
+2026-09-19T10:15:20Z ERROR [worker-3] 任务开始处理 id=512
+2026-09-19T10:15:21Z ERROR [worker-2] 任务完成 id=512 耗时 703ms
+2026-09-19T10:15:22Z INFO  [worker-1] 任务失败 id=256 reason=timeout
+2026-09-19T10:15:23Z INFO  [worker-1] 连接重置 id=1024 重试中
+2026-09-19T10:15:24Z INFO  [worker-2] task lookup id=unknown
+2026-09-19T10:15:25Z INFO  [reaper] 任务开始处理 id=4096
+2026-09-19T10:15:26Z INFO  [worker-3] 缓存命中率偏低 id=1024
+2026-09-19T10:15:27Z INFO  [worker-1] 缓存命中率偏低 id=8192
+2026-09-19T10:15:28Z WARN  [worker-1] 连接重置 id=2048 重试中
+2026-09-19T10:15:29Z INFO  [scheduler] 任务开始处理 id=8192
+2026-09-19T10:15:30Z INFO  [worker-1] 缓存命中率偏低 id=4096
+2026-09-19T10:15:31Z INFO  [worker-4] 连接重置 id=8192 重试中
+2026-09-19T10:15:32Z WARN  [worker-4] 任务失败 id=8192 reason=timeout
+2026-09-19T10:15:33Z WARN  [worker-2] 连接重置 id=2048 重试中
+2026-09-19T10:15:34Z INFO  [worker-2] 连接重置 id=1024 重试中
+	   
+2026-09-19T10:15:36Z INFO  [worker-4] 任务完成 id=4096 耗时 507ms
+2026-09-19T10:15:37Z INFO  [worker-4] 任务开始处理 id=4096
+2026-09-19T10:15:38Z INFO  [worker-1] 任务失败 id=1024 reason=timeout
+2026-09-19T10:15:39Z ERROR [scheduler] 缓存命中率偏低 id=8192
+2026-09-19T10:15:40Z WARN  [scheduler] 任务失败 id=4096 reason=timeout
+2026-09-19T10:15:41Z INFO  [worker-2] 缓存命中率偏低 id=2048
+2026-09-19T10:15:42Z INFO  [worker-1] 任务完成 id=4096 耗时 62ms
+2026-09-19T10:15:43Z INFO  [worker-2] 连接重置 id=1024 重试中
+2026-09-19T10:15:44Z INFO  [reaper] 连接重置 id=1024 重试中
+2026-09-19T10:15:45Z INFO  [reaper] 任务开始处理 id=8192
+2026-09-19T10:23:45Z INFO worker-3 missing brackets
+2026-09-19T10:15:47Z INFO  [worker-4] 任务失败 id=256 reason=timeout
+2026-09-19T10:15:48Z WARN  [worker-4] 队列深度超过阈值 id=512 队列=372
+2026-09-19T10:15:49Z INFO  [worker-2] 连接重置 id=1024 重试中
+2026-09-19T10:15:50Z INFO  [worker-1] 任务完成 id=512 耗时 711ms
+2026-09-19T10:15:51Z INFO  [reaper] 任务开始处理 id=256
+2026-09-19T10:15:52Z INFO  [worker-3] 缓存命中率偏低 id=4096
+2026-09-19T10:15:53Z INFO  [worker-1] 队列深度超过阈值 id=2048 队列=529
+2026-09-19T10:15:54Z INFO  [worker-3] 任务失败 id=1024 reason=timeout
+2026-09-19T10:15:55Z INFO  [scheduler] 任务失败 id=1024 reason=timeout
+2026-09-19T10:15:56Z INFO  [worker-4] 任务完成 id=1024 耗时 192ms
+2026-09-19T10:15:57Z INFO  [scheduler] 任务开始处理 id=1024
+2026-09-19T10:15:58Z ERROR [worker-3] 任务完成 id=2048 耗时 211ms
+2026-09-19T10:15:59Z INFO  [reaper] 连接重置 id=2048 重试中
+-- continuation of previous line
+2026-09-19T10:16:01Z INFO  [worker-4] task lookup id=unknown
+2026-09-19T10:16:02Z INFO  [scheduler] 队列深度超过阈值 id=2048 队列=424
+2026-09-19T10:16:03Z INFO  [reaper] 队列深度超过阈值 id=1024 队列=988
+2026-09-19T10:16:04Z INFO  [reaper] 任务完成 id=4096 耗时 232ms
+2026-09-19T10:16:05Z INFO  [worker-2] 缓存命中率偏低 id=8192
+2026-09-19T10:16:06Z INFO  [worker-3] 任务完成 id=1024 耗时 738ms
+2026-09-19T10:16:07Z INFO  [worker-4] 任务开始处理 id=2048
+2026-09-19T10:16:08Z INFO  [worker-2] 连接重置 id=8192 重试中
+2026-09-19T10:16:09Z WARN  [worker-4] 队列深度超过阈值 id=256 队列=807
+2026-09-19T10:16:10Z INFO  [worker-1] 任务失败 id=1024 reason=timeout
+2026-09-19T10:16:11Z INFO  [reaper] 任务完成 id=256 耗时 22ms
+2026-09-19T10:16:12Z INFO  [reaper] 任务失败 id=256 reason=timeout
+2026-09-19T10:16:13Z INFO  [scheduler] 任务失败 id=256 reason=timeout
+2026-09-19T10:16:14Z INFO  [worker-1] 缓存命中率偏低 id=4096
+2026-09-19T10:16:15Z INFO  [worker-3] 任务失败 id=8192 reason=timeout
+2026-09-19T10:16:16Z WARN  [worker-2] 任务完成 id=8192 耗时 284ms
+2026-09-19T10:16:17Z WARN  [scheduler] 队列深度超过阈值 id=256 队列=914
+2026-09-19T10:16:18Z INFO  [worker-2] 缓存命中率偏低 id=8192
+2026-09-19T10:16:19Z WARN  [scheduler] 任务开始处理 id=2048
+2026-09-19T10:16:20Z INFO  [worker-1] 队列深度超过阈值 id=8192 队列=954
+2026-09-19T10:16:21Z INFO  [scheduler] 连接重置 id=4096 重试中
+2026-09-19T10:16:22Z INFO  [worker-1] 任务完成 id=512 耗时 786ms
+2026-09-19T10:16:23Z INFO  [worker-2] 任务完成 id=8192 耗时 465ms
+2026-09-19T10:16:24Z ERROR [reaper] 任务失败 id=1024 reason=timeout
+2026-09-19T10:16:25Z INFO  [scheduler] 任务失败 id=512 reason=timeout
+2026-09-19T10:16:26Z INFO  [worker-4] 任务完成 id=1024 耗时 694ms
+2026-09-19T10:16:27Z WARN  [worker-3] 缓存命中率偏低 id=8192
+2026-09-19T10:16:28Z INFO  [worker-3] 队列深度超过阈值 id=512 队列=138
+2026-09-19T10:16:29Z ERROR [worker-4] 任务失败 id=1024 reason=timeout
+2026-09-19T10:16:30Z WARN  [worker-3] 任务开始处理 id=256
+2026-09-19T10:16:31Z INFO  [worker-2] 缓存命中率偏低 id=8192
+2026-09-19T10:16:32Z WARN  [reaper] 队列深度超过阈值 id=512 队列=808
+2026-09-19T10:16:33Z WARN  [worker-3] 任务失败 id=2048 reason=timeout
+2026-09-19T10:16:34Z INFO  [scheduler] 连接重置 id=8192 重试中
+2026-09-19T10:16:35Z INFO  [worker-1] 队列深度超过阈值 id=8192 队列=767
+2026-09-19T10:16:36Z INFO  [worker-1] 任务完成 id=512 耗时 112ms
+2026-09-19T10:16:37Z INFO  [worker-1] 任务完成 id=512 耗时 96ms
+2026-09-19T10:16:38Z INFO  [reaper] task lookup id=unknown
+2026-09-19T10:16:39Z INFO  [worker-3] 任务开始处理 id=512
+2026-09-19T10:16:40Z INFO  [reaper] 队列深度超过阈值 id=512 队列=788
+2026-09-19T10:16:41Z INFO  [reaper] 任务开始处理 id=4096
+2026-09-19T10:16:42Z INFO  [reaper] 缓存命中率偏低 id=1024
+2026-09-19T10:16:43Z WARN  [worker-2] 任务完成 id=1024 耗时 721ms
+2026-09-19T10:16:44Z ERROR [scheduler] 任务失败 id=4096 reason=timeout
+2026-09-19T10:16:45Z INFO  [scheduler] 缓存命中率偏低 id=2048
+2026-09-19T10:16:46Z INFO  [scheduler] 队列深度超过阈值 id=256 队列=250
+2026-09-19T10:16:47Z INFO  [worker-1] 任务完成 id=512 耗时 836ms
+2026-09-19T10:16:48Z INFO  [worker-3] 队列深度超过阈值 id=8192 队列=978
+2026-09-19T10:16:49Z INFO  [worker-2] 任务完成 id=8192 耗时 818ms
+2026-09-19T10:16:50Z INFO  [reaper] 任务完成 id=1024 耗时 282ms
+2026-09-19T10:16:51Z WARN  [worker-2] 缓存命中率偏低 id=4096
+2026-09-19T10:16:52Z ERROR [reaper] 队列深度超过阈值 id=256 队列=561
+2026-09-19T10:16:53Z INFO  [scheduler] 任务开始处理 id=8192
+2026-09-19T10:16:54Z INFO  [worker-2] 连接重置 id=512 重试中
+2026-09-19T10:16:55Z INFO  [worker-2] 任务开始处理 id=4096
+2026-09-19T10:16:56Z INFO  [scheduler] 任务失败 id=256 reason=timeout
+2026-09-19T10:16:57Z INFO  [reaper] 任务失败 id=2048 reason=timeout
+2026-09-19T10:16:58Z INFO  [worker-4] 任务完成 id=4096 耗时 350ms
+2026-09-19T10:16:59Z INFO  [worker-1] 任务完成 id=1024 耗时 576ms
+2026-09-19T10:17:00Z INFO  [worker-4] 队列深度超过阈值 id=512 队列=24
+2026-09-19T10:17:01Z INFO  [worker-1] 缓存命中率偏低 id=256
+2026-09-19T10:17:02Z INFO  [worker-4] 缓存命中率偏低 id=512
+2026-09-19T10:17:03Z INFO  [worker-4] 连接重置 id=8192 重试中
+2026-09-19T10:17:04Z INFO  [scheduler] 队列深度超过阈值 id=8192 队列=844
+2026-09-19T10:17:05Z INFO  [worker-4] 队列深度超过阈值 id=4096 队列=490
+2026-09-19T10:17:06Z WARN  [worker-2] 任务失败 id=1024 reason=timeout
+2026-09-19T10:17:07Z WARN  [worker-1] 任务开始处理 id=8192
+2026-09-19T10:17:08Z INFO  [scheduler] 缓存命中率偏低 id=256
+2026-09-19T10:17:09Z INFO  [reaper] 任务完成 id=8192 耗时 24ms
+2026-09-19T10:17:10Z INFO  [worker-2] 队列深度超过阈值 id=8192 队列=487
+2026-09-19T10:17:11Z INFO  [worker-2] 缓存命中率偏低 id=256
+2026-09-19T10:17:12Z INFO  [worker-1] 队列深度超过阈值 id=512 队列=495
+2026-09-19T10:17:13Z INFO  [worker-4] 任务完成 id=4096 耗时 318ms
+2026-09-19T10:17:14Z INFO  [worker-2] 任务开始处理 id=2048
+2026-09-19T10:17:15Z INFO  [worker-1] task lookup id=unknown
+2026-09-19T10:17:16Z INFO  [worker-4] 任务完成 id=2048 耗时 306ms
+2026-09-19T10:17:17Z INFO  [reaper] 缓存命中率偏低 id=4096
+2026-09-19T10:17:18Z INFO  [worker-2] 队列深度超过阈值 id=256 队列=136
+2026-09-19T10:17:19Z INFO  [scheduler] 队列深度超过阈值 id=256 队列=191
+2026-09-19T10:17:20Z INFO  [worker-2] 连接重置 id=4096 重试中
+2026-09-19T10:17:21Z INFO  [reaper] 任务完成 id=256 耗时 4ms
+2026-09-19T10:17:22Z INFO  [worker-4] 任务失败 id=4096 reason=timeout
+2026-09-19T10:17:23Z INFO  [worker-1] 任务开始处理 id=512
+2026-09-19T10:17:24Z INFO  [worker-3] 任务失败 id=4096 reason=timeout
+2026-09-19T10:17:25Z WARN  [worker-3] 任务完成 id=256 耗时 524ms
+2026-09-19T10:17:26Z INFO  [worker-1] 任务失败 id=2048 reason=timeout
+2026-09-19T10:17:27Z WARN  [reaper] 任务失败 id=4096 reason=timeout
+2026-09-19T10:17:28Z INFO  [worker-1] 连接重置 id=512 重试中
+2026-09-19T10:17:29Z WARN  [reaper] 连接重置 id=1024 重试中
+2026-09-19T10:17:30Z INFO  [worker-3] 队列深度超过阈值 id=256 队列=685
+2026-09-19T10:17:31Z INFO  [worker-1] 连接重置 id=512 重试中
+2026-09-19T10:17:32Z INFO  [worker-3] 任务完成 id=512 耗时 823ms
+2026-09-19T10:17:33Z INFO  [worker-1] 任务开始处理 id=512
+2026-09-19T10:17:34Z INFO  [worker-3] 任务失败 id=512 reason=timeout
+2026-09-19T10:17:35Z INFO  [reaper] 缓存命中率偏低 id=256
+2026-09-19T10:17:36Z INFO  [reaper] 连接重置 id=8192 重试中
+2026-09-19T10:17:37Z INFO  [scheduler] 任务完成 id=8192 耗时 853ms
+2026-09-19T10:17:38Z INFO  [worker-3] 连接重置 id=1024 重试中
+2026-09-19T10:17:39Z INFO  [worker-4] 连接重置 id=1024 重试中
+2026-09-19T10:17:40Z INFO  [worker-1] 任务失败 id=8192 reason=timeout
+2026-09-19T10:17:41Z INFO  [worker-2] 任务开始处理 id=2048
+2026-09-19T10:17:42Z INFO  [worker-3] 队列深度超过阈值 id=512 队列=758
+2026-09-19T10:17:43Z INFO  [scheduler] 队列深度超过阈值 id=8192 队列=44
+2026-09-19T10:17:44Z INFO  [reaper] 连接重置 id=8192 重试中
+2026-09-19T10:17:45Z INFO  [scheduler] 缓存命中率偏低 id=1024
+2026-09-19T10:17:46Z INFO  [worker-4] 队列深度超过阈值 id=2048 队列=84
+2026-09-19T10:17:47Z WARN  [reaper] 队列深度超过阈值 id=1024 队列=368
+2026-09-19T10:17:48Z INFO  [scheduler] 任务完成 id=8192 耗时 231ms
+2026-09-19T10:17:49Z INFO  [worker-4] 任务失败 id=4096 reason=timeout
+2026-09-19T10:17:50Z ERROR [worker-1] 队列深度超过阈值 id=256 队列=776
+2026-09-19T10:17:51Z INFO  [reaper] 任务完成 id=256 耗时 74ms
+2026-09-19T10:17:52Z INFO  [worker-3] task lookup id=unknown
+2026-09-19T10:17:53Z INFO  [worker-1] 任务失败 id=2048 reason=timeout
+2026-09-19T10:17:54Z WARN  [worker-1] 任务失败 id=1024 reason=timeout
+2026-09-19T10:17:55Z INFO  [worker-1] 任务完成 id=256 耗时 61ms
+2026-09-19T10:17:56Z INFO  [worker-2] 任务完成 id=2048 耗时 645ms
+2026-09-19T10:17:57Z INFO  [worker-3] 缓存命中率偏低 id=8192
+2026-09-19T10:17:58Z INFO  [scheduler] 连接重置 id=512 重试中
+2026-09-19T10:17:59Z INFO  [worker-2] 任务完成 id=4096 耗时 424ms
+2026-09-19T10:18:00Z INFO  [scheduler] 缓存命中率偏低 id=2048
+2026-09-19T10:18:01Z INFO  [worker-1] 任务开始处理 id=8192
+2026-09-19T10:18:02Z INFO  [worker-3] 任务失败 id=8192 reason=timeout
+2026-09-19T10:18:03Z INFO  [worker-2] 任务失败 id=4096 reason=timeout
+2026-09-19T10:18:04Z INFO  [worker-4] 任务失败 id=1024 reason=timeout
+2026-09-19T10:18:05Z INFO  [worker-4] 连接重置 id=8192 重试中
+2026-09-19T10:18:06Z INFO  [worker-3] 任务完成 id=1024 耗时 840ms
+2026-09-19T10:18:07Z INFO  [worker-3] 队列深度超过阈值 id=4096 队列=860
+2026-09-19T10:18:08Z INFO  [worker-4] 队列深度超过阈值 id=8192 队列=14
+2026-09-19T10:18:09Z INFO  [worker-2] 缓存命中率偏低 id=4096
+2026-09-19T10:18:10Z INFO  [worker-3] 队列深度超过阈值 id=256 队列=592
+2026-09-19T10:18:11Z INFO  [worker-1] 任务完成 id=512 耗时 172ms
+2026-09-19T10:18:12Z INFO  [worker-4] 队列深度超过阈值 id=2048 队列=441
+2026-09-19T10:18:13Z INFO  [scheduler] 连接重置 id=512 重试中
+2026-09-19T10:18:14Z WARN  [reaper] 队列深度超过阈值 id=1024 队列=772
+2026-09-19T10:18:15Z INFO  [worker-1] 任务失败 id=256 reason=timeout
+2026-09-19T10:18:16Z INFO  [worker-1] 任务开始处理 id=4096
+2026-09-19T10:18:17Z INFO  [worker-1] 缓存命中率偏低 id=256
+2026-09-19T10:18:18Z INFO  [worker-3] 任务开始处理 id=8192
+2026-09-19T10:18:19Z INFO  [scheduler] 队列深度超过阈值 id=512 队列=733

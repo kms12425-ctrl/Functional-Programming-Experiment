@@ -1,0 +1,21 @@
+[package]
+name = "logharvest"
+version = "0.1.0"
+edition = "2021"
+description = "并发日志采集分析器 —— Rust 上机实验脚手架"
+license = "MIT"
+
+# 注意：本项目刻意不引入任何第三方依赖。
+# 这是设计决定，不是遗漏。原因见 README.md「为什么零依赖」一节。
+[dependencies]
+
+[[bin]]
+name = "logharvest"
+path = "src/main.rs"
+
+[lib]
+name = "logharvest"
+path = "src/lib.rs"
+
+[profile.release]
+debug = true

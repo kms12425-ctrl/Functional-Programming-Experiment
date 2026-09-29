@@ -1,0 +1,700 @@
+2026-09-19T10:00:00Z WARN  [worker-1] task finished id=512 elapsed=820ms
+-- continuation of previous line
+2026-09-19T10:00:02Z INFO  [reaper] task finished id=256 elapsed=161ms
+2026-09-19T10:00:03Z INFO  [worker-1] queue depth over threshold id=2048 depth=247
+2026-09-19T10:00:04Z INFO  [worker-1] 任务开始处理 id=256
+2026-09-19T10:00:05Z WARN  [worker-3] 队列深度超过阈值 id=256 队列=907
+2026-09-19T10:00:06Z INFO  [worker-2] 任务完成 id=1024 耗时 758ms
+2026-09-19T10:00:07Z INFO  [worker-2] 缓存命中率偏低 id=512
+not a timestamp INFO [worker-3] hi
+2026-09-19T10:00:09Z INFO  [worker-2] cache miss ratio high id=4096
+2026-09-19T10:00:10Z INFO  [worker-1] 缓存命中率偏低 id=256
+2026-09-19T10:00:11Z INFO  [worker-4] cache miss ratio high id=512
+2026-09-19T10:00:12Z INFO  [worker-4] task failed id=8192 reason=timeout
+2026-09-19T10:00:13Z INFO  [worker-2] 任务失败 id=2048 reason=timeout
+2026-09-19T10:00:14Z INFO  [worker-1] 任务开始处理 id=512
+2026-09-19T10:00:15Z INFO  [worker-4] 任务完成 id=2048 耗时 592ms
+2026-09-19T10:00:16Z INFO  [scheduler] 队列深度超过阈值 id=2048 队列=970
+2026-09-19T10:00:17Z ERROR [scheduler] task finished id=512 elapsed=772ms
+2026-09-19T10:00:18Z INFO  [worker-4] queue depth over threshold id=256 depth=884
+2026-09-19T10:00:19Z INFO  [worker-1] task finished id=8192 elapsed=376ms
+2026-09-19T10:00:20Z INFO  [worker-3] task started id=256
+2026-09-19T10:00:21Z WARN  [scheduler] connection reset id=1024 retrying
+2026-09-19T10:00:22Z INFO  [reaper] task started id=2048
+2026-09-19T10:00:23Z INFO  [reaper] task failed id=256 reason=timeout
+2026-09-19T10:00:24Z INFO  [worker-2] cache miss ratio high id=1024
+2026-09-19T10:00:25Z WARN  [worker-4] task started id=512
+2026-09-19T10:00:26Z INFO  [worker-2] 任务开始处理 id=1024
+2026-09-19T10:00:27Z INFO  [worker-3] 队列深度超过阈值 id=4096 队列=231
+2026-09-19T10:00:28Z WARN  [scheduler] connection reset id=8192 retrying
+2026-09-19T10:00:29Z INFO  [worker-4] 连接重置 id=8192 重试中
+2026-09-19T10:00:30Z INFO  [worker-2] task finished id=1024 elapsed=307ms
+2026-09-19T10:00:31Z INFO  [worker-3] task started id=8192
+-- continuation of previous line
+2026-09-19T10:00:33Z ERROR [worker-3] 任务失败 id=256 reason=timeout
+2026-09-19T10:00:34Z INFO  [worker-1] task finished id=256 elapsed=570ms
+2026-09-19T10:00:35Z INFO  [scheduler] task finished id=1024 elapsed=571ms
+2026-09-19T10:00:36Z INFO  [reaper] task lookup id=unknown
+2026-09-19T10:00:37Z INFO  [worker-2] cache miss ratio high id=256
+2026-09-19T10:00:38Z INFO  [worker-3] queue depth over threshold id=512 depth=796
+2026-09-19T10:00:39Z INFO  [worker-1] 任务失败 id=512 reason=timeout
+2026-09-19T10:00:40Z ERROR [worker-1] queue depth over threshold id=4096 depth=490
+2026-09-19T10:00:41Z INFO  [worker-4] task finished id=256 elapsed=38ms
+	   
+2026-09-19T10:00:43Z INFO  [worker-1] 队列深度超过阈值 id=1024 队列=743
+2026-09-19T10:00:44Z INFO  [worker-1] task started id=1024
+2026-09-19T10:00:45Z INFO  [worker-1] 连接重置 id=512 重试中
+2026-09-19T10:00:46Z INFO  [worker-4] queue depth over threshold id=256 depth=442
+2026-09-19T10:00:47Z INFO  [worker-1] 缓存命中率偏低 id=512
+2026-09-19T10:00:48Z INFO  [worker-1] 队列深度超过阈值 id=1024 队列=616
+2026-09-19T10:00:49Z INFO  [scheduler] queue depth over threshold id=2048 depth=846
+2026-09-19T10:00:50Z WARN  [scheduler] connection reset id=2048 retrying
+2026-09-19T10:00:51Z INFO  [scheduler] 队列深度超过阈值 id=256 队列=744
+2026-09-19T10:00:52Z INFO  [worker-4] 任务开始处理 id=4096
+2026-09-19T10:00:53Z INFO  [worker-4] connection reset id=512 retrying
+2026-09-19T10:00:54Z INFO  [worker-2] 队列深度超过阈值 id=2048 队列=219
+2026-09-19T10:00:55Z INFO  [worker-3] 缓存命中率偏低 id=512
+2026-09-19T10:00:56Z INFO  [worker-4] task started id=8192
+2026-09-19T10:00:57Z WARN  [reaper] 连接重置 id=4096 重试中
+2026-09-19T10:00:58Z ERROR [scheduler] 连接重置 id=2048 重试中
+2026-09-19T10:00:59Z INFO  [reaper] 连接重置 id=256 重试中
+2026-09-19T10:01:00Z INFO  [worker-2] connection reset id=256 retrying
+2026-09-19T10:01:01Z WARN  [reaper] task started id=8192
+2026-09-19T10:01:02Z ERROR [worker-3] task started id=256
+2026-09-19T10:01:03Z INFO  [worker-2] task failed id=1024 reason=timeout
+2026-09-19T10:01:04Z INFO  [worker-2] 任务完成 id=8192 耗时 518ms
+2026-09-19T10:01:05Z INFO  [worker-3] cache miss ratio high id=1024
+2026-09-19T10:01:06Z INFO  [reaper] queue depth over threshold id=512 depth=246
+-- continuation of previous line
+2026-09-19T10:01:08Z INFO  [worker-3] 任务开始处理 id=4096
+2026-09-19T10:01:09Z INFO  [worker-4] cache miss ratio high id=512
+2026-09-19T10:01:10Z WARN  [worker-4] task finished id=8192 elapsed=679ms
+2026-09-19T10:01:11Z INFO  [worker-1] connection reset id=4096 retrying
+2026-09-19T10:01:12Z WARN  [worker-4] task finished id=4096 elapsed=792ms
+2026-09-19T10:01:13Z INFO  [reaper] task lookup id=unknown
+2026-09-19T10:01:14Z INFO  [worker-4] connection reset id=512 retrying
+2026-09-19T10:01:15Z INFO  [worker-1] task finished id=512 elapsed=662ms
+2026-09-19T10:01:16Z WARN  [worker-3] 任务开始处理 id=256
+2026-09-19T10:01:17Z INFO  [reaper] 队列深度超过阈值 id=2048 队列=172
+2026-09-19T10:01:18Z INFO  [worker-1] 任务失败 id=8192 reason=timeout
+2026-09-19T10:01:19Z INFO  [worker-3] task finished id=4096 elapsed=710ms
+2026-09-19T10:01:20Z WARN  [worker-4] queue depth over threshold id=2048 depth=759
+2026-09-19T10:01:21Z INFO  [worker-2] 任务完成 id=1024 耗时 82ms
+2026-09-19T10:01:22Z WARN  [reaper] task finished id=512 elapsed=880ms
+2026-09-19T10:01:23Z INFO  [worker-4] 队列深度超过阈值 id=512 队列=245
+2026-09-19T10:01:24Z WARN  [worker-4] 任务开始处理 id=4096
+2026-09-19T10:01:25Z INFO  [worker-1] task finished id=4096 elapsed=146ms
+2026-09-19T10:01:26Z WARN  [worker-2] task started id=512
+2026-09-19T10:01:27Z ERROR [worker-4] 任务完成 id=8192 耗时 85ms
+2026-09-19T10:23:45Z INFO worker-3 missing brackets
+2026-09-19T10:01:29Z WARN  [worker-4] connection reset id=1024 retrying
+2026-09-19T10:01:30Z INFO  [worker-1] task failed id=512 reason=timeout
+2026-09-19T10:01:31Z INFO  [reaper] queue depth over threshold id=2048 depth=712
+2026-09-19T10:01:32Z INFO  [worker-4] task started id=2048
+2026-09-19T10:01:33Z INFO  [scheduler] task failed id=2048 reason=timeout
+2026-09-19T10:01:34Z INFO  [worker-2] connection reset id=512 retrying
+2026-09-19T10:01:35Z INFO  [reaper] cache miss ratio high id=512
+2026-09-19T10:01:36Z INFO  [worker-2] 任务完成 id=2048 耗时 670ms
+2026-09-19T10:01:37Z INFO  [worker-1] connection reset id=4096 retrying
+2026-09-19T10:01:38Z INFO  [worker-1] task started id=256
+2026-09-19T10:01:39Z INFO  [reaper] 连接重置 id=2048 重试中
+2026-09-19T10:23:45Z INFO worker-3 missing brackets
+2026-09-19T10:01:41Z INFO  [worker-1] 任务完成 id=512 耗时 723ms
+2026-09-19T10:01:42Z INFO  [worker-2] cache miss ratio high id=4096
+2026-09-19T10:01:43Z INFO  [worker-3] task finished id=4096 elapsed=573ms
+2026-09-19T10:01:44Z INFO  [worker-1] 任务失败 id=1024 reason=timeout
+2026-09-19T10:01:45Z INFO  [worker-2] cache miss ratio high id=1024
+2026-09-19T10:01:46Z ERROR [worker-3] queue depth over threshold id=256 depth=157
+2026-09-19T10:01:47Z INFO  [worker-2] task failed id=512 reason=timeout
+2026-09-19T10:01:48Z INFO  [worker-4] 缓存命中率偏低 id=4096
+2026-09-19T10:01:49Z INFO  [reaper] 连接重置 id=256 重试中
+2026-09-19T10:01:50Z INFO  [worker-4] task lookup id=unknown
+2026-09-19T10:01:51Z INFO  [worker-1] task finished id=512 elapsed=886ms
+2026-09-19T10:01:52Z INFO  [worker-1] task failed id=2048 reason=timeout
+2026-09-19T10:01:53Z WARN  [worker-3] 缓存命中率偏低 id=4096
+2026-09-19T10:01:54Z INFO  [worker-2] 缓存命中率偏低 id=8192
+2026-09-19T10:01:55Z INFO  [worker-3] 连接重置 id=8192 重试中
+2026-09-19T10:01:56Z WARN  [worker-2] 任务失败 id=256 reason=timeout
+2026-09-19T10:01:57Z INFO  [worker-1] cache miss ratio high id=1024
+2026-09-19T10:01:58Z INFO  [reaper] task started id=1024
+2026-09-19T10:01:59Z INFO  [worker-3] 队列深度超过阈值 id=8192 队列=13
+2026-09-19T10:02:00Z INFO  [reaper] 任务开始处理 id=256
+2026-09-19T10:02:01Z WARN  [worker-2] task started id=1024
+2026-09-19T10:02:02Z INFO  [worker-3] task finished id=256 elapsed=293ms
+2026-09-19T10:02:03Z INFO  [worker-4] queue depth over threshold id=4096 depth=83
+2026-09-19T10:02:04Z WARN  [reaper] task finished id=1024 elapsed=592ms
+2026-09-19T10:02:05Z INFO  [worker-3] task started id=1024
+2026-09-19T10:02:06Z INFO  [worker-2] cache miss ratio high id=1024
+2026-09-19T10:02:07Z WARN  [worker-1] task failed id=256 reason=timeout
+2026-09-19T10:02:08Z INFO  [scheduler] queue depth over threshold id=8192 depth=208
+2026-09-19T10:02:09Z INFO  [worker-1] task started id=256
+2026-09-19T10:02:10Z INFO  [worker-3] 队列深度超过阈值 id=256 队列=211
+2026-09-19T10:02:11Z INFO  [reaper] task failed id=2048 reason=timeout
+2026-09-19T10:02:12Z INFO  [worker-3] task failed id=1024 reason=timeout
+2026-09-19T10:02:13Z INFO  [worker-1] connection reset id=8192 retrying
+2026-09-19T10:02:14Z INFO  [worker-2] task finished id=512 elapsed=849ms
+2026-09-19T10:02:15Z INFO  [scheduler] task started id=256
+2026-09-19T10:02:16Z INFO  [worker-4] 连接重置 id=256 重试中
+2026-09-19T10:02:17Z INFO  [reaper] task failed id=8192 reason=timeout
+2026-09-19T10:02:18Z INFO  [reaper] 队列深度超过阈值 id=2048 队列=610
+2026-09-19T10:02:19Z ERROR [scheduler] 任务失败 id=256 reason=timeout
+2026-09-19T10:02:20Z INFO  [reaper] task started id=8192
+2026-09-19T10:02:21Z INFO  [scheduler] 任务失败 id=8192 reason=timeout
+2026-09-19T10:02:22Z INFO  [scheduler] cache miss ratio high id=8192
+2026-09-19T10:02:23Z INFO  [worker-4] 任务开始处理 id=8192
+2026-09-19T10:02:24Z INFO  [reaper] 任务开始处理 id=1024
+2026-09-19T10:02:25Z INFO  [reaper] 队列深度超过阈值 id=8192 队列=230
+2026-09-19T10:02:26Z INFO  [worker-4] task finished id=256 elapsed=120ms
+2026-09-19T10:02:27Z WARN  [worker-3] task lookup id=unknown
+2026-09-19T10:02:28Z INFO  [reaper] cache miss ratio high id=4096
+2026-09-19T10:02:29Z INFO  [worker-3] task failed id=4096 reason=timeout
+2026-09-19T10:02:30Z WARN  [worker-2] task started id=256
+2026-09-19T10:02:31Z INFO  [worker-2] 任务开始处理 id=2048
+2026-09-19T10:02:32Z INFO  [worker-3] queue depth over threshold id=4096 depth=758
+2026-09-19T10:02:33Z INFO  [worker-3] queue depth over threshold id=256 depth=379
+2026-09-19T10:02:34Z WARN  [reaper] cache miss ratio high id=8192
+2026-09-19T10:02:35Z INFO  [worker-4] 缓存命中率偏低 id=4096
+2026-09-19T10:02:36Z INFO  [scheduler] cache miss ratio high id=8192
+2026-09-19T10:02:37Z WARN  [reaper] task finished id=512 elapsed=15ms
+2026-09-19T10:02:38Z INFO  [worker-2] 连接重置 id=1024 重试中
+2026-09-19T10:02:39Z INFO  [scheduler] queue depth over threshold id=8192 depth=849
+2026-09-19T10:02:40Z WARN  [scheduler] queue depth over threshold id=8192 depth=456
+2026-09-19T10:02:41Z INFO  [reaper] cache miss ratio high id=256
+2026-09-19T10:02:42Z INFO  [worker-1] 缓存命中率偏低 id=256
+2026-09-19T10:02:43Z INFO  [worker-4] 任务失败 id=2048 reason=timeout
+2026-09-19T10:02:44Z INFO  [worker-3] queue depth over threshold id=256 depth=583
+2026-09-19T10:02:45Z INFO  [worker-2] 缓存命中率偏低 id=256
+2026-09-19T10:02:46Z INFO  [worker-2] 任务失败 id=2048 reason=timeout
+2026-09-19T10:02:47Z INFO  [worker-3] queue depth over threshold id=1024 depth=961
+2026-09-19T10:02:48Z INFO  [worker-4] task finished id=512 elapsed=194ms
+2026-09-19T10:02:49Z INFO  [worker-4] 任务失败 id=8192 reason=timeout
+2026-09-19T10:02:50Z INFO  [reaper] task started id=8192
+2026-09-19T10:02:51Z INFO  [worker-2] 任务完成 id=512 耗时 355ms
+2026-09-19T10:02:52Z INFO  [worker-4] task finished id=512 elapsed=474ms
+2026-09-19T10:02:53Z INFO  [worker-1] queue depth over threshold id=1024 depth=228
+-- continuation of previous line
+2026-09-19T10:02:55Z INFO  [scheduler] 缓存命中率偏低 id=256
+2026-09-19T10:02:56Z WARN  [reaper] 缓存命中率偏低 id=2048
+2026-09-19T10:02:57Z INFO  [reaper] 任务失败 id=512 reason=timeout
+2026-09-19T10:02:58Z INFO  [scheduler] 任务失败 id=4096 reason=timeout
+2026-09-19T10:02:59Z INFO  [worker-3] 任务完成 id=2048 耗时 225ms
+2026-09-19T10:03:00Z WARN  [worker-2] connection reset id=256 retrying
+2026-09-19T10:03:01Z INFO  [reaper] 任务开始处理 id=256
+2026-09-19T10:03:02Z ERROR [worker-1] 缓存命中率偏低 id=2048
+2026-09-19T10:03:03Z INFO  [worker-2] 任务开始处理 id=256
+2026-09-19T10:03:04Z INFO  [scheduler] task lookup id=unknown
+2026-09-19T10:03:05Z INFO  [worker-4] 任务开始处理 id=8192
+2026-09-19T10:03:06Z INFO  [worker-2] task started id=512
+2026-09-19T10:03:07Z INFO  [reaper] cache miss ratio high id=2048
+2026-09-19T10:03:08Z INFO  [worker-3] queue depth over threshold id=2048 depth=141
+2026-09-19T10:03:09Z INFO  [worker-3] 任务完成 id=4096 耗时 770ms
+2026-09-19T10:03:10Z WARN  [scheduler] cache miss ratio high id=8192
+2026-09-19T10:03:11Z INFO  [worker-3] 任务开始处理 id=4096
+2026-09-19T10:03:12Z ERROR [scheduler] 任务完成 id=2048 耗时 369ms
+2026-09-19T10:03:13Z INFO  [scheduler] 任务开始处理 id=4096
+2026-09-19T10:03:14Z INFO  [scheduler] 任务完成 id=2048 耗时 769ms
+2026-09-19T10:03:15Z INFO  [scheduler] 队列深度超过阈值 id=512 队列=931
+2026-09-19T10:03:16Z INFO  [scheduler] 连接重置 id=512 重试中
+2026-09-19T10:03:17Z ERROR [worker-1] task failed id=512 reason=timeout
+2026-09-19T10:03:18Z INFO  [worker-3] task failed id=4096 reason=timeout
+2026-09-19T10:03:19Z INFO  [scheduler] 任务完成 id=2048 耗时 601ms
+2026-09-19T10:03:20Z INFO  [worker-1] queue depth over threshold id=1024 depth=280
+2026-09-19T10:03:21Z WARN  [reaper] 缓存命中率偏低 id=4096
+not a timestamp INFO [worker-3] hi
+2026-09-19T10:03:23Z INFO  [worker-3] 缓存命中率偏低 id=2048
+2026-09-19T10:03:24Z INFO  [worker-3] task finished id=256 elapsed=892ms
+2026-09-19T10:03:25Z INFO  [worker-3] 任务完成 id=8192 耗时 115ms
+malformed line without structure
+2026-09-19T10:03:27Z INFO  [worker-1] 任务失败 id=1024 reason=timeout
+2026-09-19T10:03:28Z INFO  [worker-3] 任务失败 id=4096 reason=timeout
+2026-09-19T10:03:29Z INFO  [worker-3] task failed id=8192 reason=timeout
+2026-09-19T10:03:30Z INFO  [worker-3] task failed id=1024 reason=timeout
+2026-09-19T10:03:31Z INFO  [worker-4] task started id=8192
+2026-09-19T10:03:32Z ERROR [worker-4] 缓存命中率偏低 id=4096
+2026-09-19T10:03:33Z WARN  [worker-3] task failed id=4096 reason=timeout
+2026-09-19T10:03:34Z WARN  [worker-2] task failed id=512 reason=timeout
+2026-09-19T10:03:35Z INFO  [worker-4] cache miss ratio high id=1024
+2026-09-19T10:03:36Z INFO  [scheduler] 任务开始处理 id=512
+2026-09-19T10:03:37Z INFO  [worker-2] 任务完成 id=512 耗时 242ms
+2026-09-19T10:03:38Z INFO  [worker-2] task started id=512
+2026-09-19T10:03:39Z INFO  [worker-2] 任务失败 id=512 reason=timeout
+2026-09-19T10:03:40Z WARN  [worker-2] task started id=512
+2026-09-19T10:03:41Z INFO  [reaper] task lookup id=unknown
+2026-09-19T10:03:42Z INFO  [worker-1] task failed id=4096 reason=timeout
+2026-09-19T10:03:43Z WARN  [worker-3] connection reset id=256 retrying
+2026-09-19T10:03:44Z INFO  [worker-2] 连接重置 id=256 重试中
+2026-09-19T10:03:45Z INFO  [worker-1] 连接重置 id=2048 重试中
+2026-09-19T10:23:45Z INFO worker-3 missing brackets
+2026-09-19T10:03:47Z INFO  [worker-4] cache miss ratio high id=8192
+2026-09-19T10:03:48Z INFO  [reaper] task started id=4096
+2026-09-19T10:03:49Z INFO  [scheduler] queue depth over threshold id=4096 depth=172
+2026-09-19T10:03:50Z INFO  [worker-2] 连接重置 id=8192 重试中
+2026-09-19T10:03:51Z INFO  [worker-4] 任务开始处理 id=8192
+2026-09-19T10:03:52Z WARN  [worker-1] cache miss ratio high id=512
+2026-09-19T10:03:53Z WARN  [reaper] task started id=1024
+2026-09-19T10:03:54Z INFO  [worker-4] task finished id=2048 elapsed=361ms
+2026-09-19T10:03:55Z INFO  [worker-2] 队列深度超过阈值 id=512 队列=382
+2026-09-19T10:03:56Z INFO  [worker-4] task started id=2048
+2026-09-19T10:03:57Z ERROR [worker-1] cache miss ratio high id=2048
+2026-09-19T10:03:58Z INFO  [worker-1] task finished id=8192 elapsed=115ms
+2026-09-19T10:03:59Z INFO  [reaper] task started id=2048
+2026-09-19T10:04:00Z WARN  [worker-3] 连接重置 id=4096 重试中
+2026-09-19T10:04:01Z INFO  [reaper] queue depth over threshold id=512 depth=561
+2026-09-19T10:04:02Z INFO  [scheduler] task started id=1024
+2026-09-19T10:04:03Z INFO  [worker-1] 任务完成 id=4096 耗时 837ms
+2026-09-19T10:04:04Z WARN  [worker-1] task started id=8192
+2026-09-19T10:04:05Z WARN  [scheduler] task failed id=4096 reason=timeout
+2026-09-19T10:04:06Z INFO  [scheduler] cache miss ratio high id=256
+2026-09-19T10:04:07Z INFO  [worker-1] 队列深度超过阈值 id=8192 队列=989
+2026-09-19T10:04:08Z INFO  [worker-3] cache miss ratio high id=8192
+2026-09-19T10:04:09Z INFO  [worker-1] task started id=2048
+2026-09-19T10:04:10Z INFO  [scheduler] queue depth over threshold id=2048 depth=74
+2026-09-19T10:04:11Z INFO  [worker-2] cache miss ratio high id=8192
+malformed line without structure
+2026-09-19T10:04:13Z WARN  [worker-3] 缓存命中率偏低 id=256
+2026-09-19T10:04:14Z INFO  [scheduler] 队列深度超过阈值 id=8192 队列=453
+2026-09-19T10:04:15Z INFO  [reaper] task started id=2048
+2026-09-19T10:04:16Z INFO  [worker-4] queue depth over threshold id=8192 depth=435
+2026-09-19T10:04:17Z ERROR [reaper] 缓存命中率偏低 id=256
+2026-09-19T10:04:18Z INFO  [worker-3] task lookup id=unknown
+2026-09-19T10:04:19Z INFO  [scheduler] 连接重置 id=2048 重试中
+2026-09-19T10:04:20Z INFO  [worker-1] 缓存命中率偏低 id=4096
+2026-09-19T10:04:21Z INFO  [reaper] 缓存命中率偏低 id=2048
+2026-09-19T10:04:22Z INFO  [worker-1] queue depth over threshold id=8192 depth=404
+2026-09-19T10:04:23Z INFO  [worker-1] 队列深度超过阈值 id=256 队列=847
+2026-09-19T10:04:24Z INFO  [scheduler] 任务完成 id=256 耗时 863ms
+2026-09-19T10:04:25Z INFO  [reaper] 连接重置 id=2048 重试中
+2026-09-19T10:04:26Z WARN  [worker-4] 缓存命中率偏低 id=4096
+2026-09-19T10:04:27Z INFO  [worker-2] 队列深度超过阈值 id=2048 队列=227
+2026-09-19T10:04:28Z INFO  [worker-4] 任务完成 id=1024 耗时 648ms
+2026-09-19T10:04:29Z ERROR [worker-3] 缓存命中率偏低 id=2048
+2026-09-19T10:04:30Z INFO  [reaper] cache miss ratio high id=256
+2026-09-19T10:04:31Z INFO  [worker-3] 缓存命中率偏低 id=2048
+2026-09-19T10:04:32Z INFO  [worker-4] 任务完成 id=512 耗时 388ms
+2026-09-19T10:04:33Z INFO  [scheduler] 连接重置 id=4096 重试中
+2026-09-19T10:04:34Z INFO  [worker-2] 任务完成 id=256 耗时 734ms
+2026-09-19T10:04:35Z INFO  [worker-2] task failed id=512 reason=timeout
+2026-09-19T10:04:36Z INFO  [worker-1] queue depth over threshold id=8192 depth=195
+2026-09-19T10:04:37Z INFO  [worker-1] task finished id=2048 elapsed=598ms
+2026-09-19T10:04:38Z INFO  [reaper] cache miss ratio high id=1024
+2026-09-19T10:04:39Z INFO  [worker-4] connection reset id=8192 retrying
+2026-09-19T10:04:40Z INFO  [worker-1] queue depth over threshold id=2048 depth=395
+2026-09-19T10:04:41Z INFO  [reaper] 队列深度超过阈值 id=1024 队列=505
+2026-09-19T10:04:42Z INFO  [worker-4] task started id=512
+2026-09-19T10:04:43Z INFO  [worker-1] 任务完成 id=2048 耗时 367ms
+2026-09-19T10:04:44Z WARN  [worker-1] 任务开始处理 id=512
+2026-09-19T10:04:45Z INFO  [worker-1] 任务开始处理 id=4096
+2026-09-19T10:04:46Z WARN  [reaper] 连接重置 id=512 重试中
+malformed line without structure
+2026-09-19T10:04:48Z INFO  [reaper] 任务失败 id=2048 reason=timeout
+2026-09-19T10:04:49Z INFO  [reaper] cache miss ratio high id=4096
+2026-09-19T10:04:50Z INFO  [worker-1] queue depth over threshold id=4096 depth=164
+2026-09-19T10:04:51Z INFO  [reaper] connection reset id=8192 retrying
+2026-09-19T10:04:52Z WARN  [reaper] cache miss ratio high id=256
+2026-09-19T10:04:53Z INFO  [scheduler] 任务完成 id=4096 耗时 704ms
+2026-09-19T10:04:54Z ERROR [worker-2] 缓存命中率偏低 id=512
+2026-09-19T10:04:55Z INFO  [reaper] task lookup id=unknown
+2026-09-19T10:04:56Z INFO  [scheduler] 任务失败 id=256 reason=timeout
+2026-09-19T10:04:57Z INFO  [worker-2] 缓存命中率偏低 id=256
+2026-09-19T10:04:58Z INFO  [worker-2] queue depth over threshold id=4096 depth=894
+2026-09-19T10:04:59Z INFO  [scheduler] task started id=8192
+2026-09-19T10:05:00Z ERROR [worker-4] 队列深度超过阈值 id=256 队列=183
+2026-09-19T10:05:01Z INFO  [worker-1] cache miss ratio high id=2048
+2026-09-19T10:05:02Z INFO  [worker-3] cache miss ratio high id=256
+2026-09-19T10:05:03Z WARN  [worker-3] 任务失败 id=8192 reason=timeout
+2026-09-19T10:05:04Z WARN  [worker-3] task finished id=2048 elapsed=147ms
+2026-09-19T10:05:05Z INFO  [worker-2] task finished id=512 elapsed=186ms
+2026-09-19T10:05:06Z INFO  [worker-4] 任务开始处理 id=4096
+2026-09-19T10:05:07Z INFO  [worker-2] task finished id=1024 elapsed=763ms
+2026-09-19T10:05:08Z WARN  [scheduler] connection reset id=512 retrying
+2026-09-19T10:05:09Z WARN  [worker-2] 任务失败 id=8192 reason=timeout
+2026-09-19T10:05:10Z INFO  [worker-3] cache miss ratio high id=8192
+2026-09-19T10:05:11Z INFO  [reaper] 任务开始处理 id=8192
+2026-09-19T10:05:12Z INFO  [worker-2] connection reset id=2048 retrying
+2026-09-19T10:05:13Z INFO  [worker-3] 队列深度超过阈值 id=8192 队列=669
+2026-09-19T10:05:14Z WARN  [reaper] 任务开始处理 id=2048
+2026-09-19T10:05:15Z WARN  [worker-2] task started id=4096
+2026-09-19T10:05:16Z INFO  [worker-2] connection reset id=2048 retrying
+-- continuation of previous line
+2026-09-19T10:05:18Z INFO  [worker-3] 队列深度超过阈值 id=512 队列=522
+2026-09-19T10:05:19Z INFO  [scheduler] task failed id=256 reason=timeout
+2026-09-19T10:05:20Z INFO  [worker-1] task failed id=8192 reason=timeout
+2026-09-19T10:05:21Z INFO  [worker-3] 队列深度超过阈值 id=1024 队列=271
+2026-09-19T10:05:22Z INFO  [scheduler] 任务完成 id=512 耗时 556ms
+2026-09-19T10:05:23Z INFO  [worker-2] 缓存命中率偏低 id=1024
+2026-09-19T10:05:24Z INFO  [reaper] cache miss ratio high id=1024
+2026-09-19T10:05:25Z INFO  [worker-4] 任务失败 id=8192 reason=timeout
+2026-09-19T10:05:26Z INFO  [reaper] queue depth over threshold id=1024 depth=492
+2026-09-19T10:05:27Z WARN  [worker-2] task failed id=256 reason=timeout
+2026-09-19T10:05:28Z INFO  [worker-1] task failed id=4096 reason=timeout
+malformed line without structure
+2026-09-19T10:05:30Z INFO  [worker-1] connection reset id=4096 retrying
+2026-09-19T10:05:31Z INFO  [worker-2] queue depth over threshold id=4096 depth=447
+2026-09-19T10:05:32Z INFO  [worker-2] task lookup id=unknown
+2026-09-19T10:05:33Z INFO  [worker-2] queue depth over threshold id=8192 depth=195
+2026-09-19T10:05:34Z WARN  [worker-1] 任务开始处理 id=4096
+2026-09-19T10:05:35Z INFO  [worker-4] task started id=4096
+2026-09-19T10:05:36Z INFO  [worker-2] 队列深度超过阈值 id=256 队列=747
+2026-09-19T10:05:37Z INFO  [reaper] 队列深度超过阈值 id=1024 队列=428
+2026-09-19T10:05:38Z INFO  [reaper] 任务完成 id=1024 耗时 250ms
+2026-09-19T10:05:39Z INFO  [worker-2] cache miss ratio high id=4096
+2026-09-19T10:05:40Z INFO  [scheduler] connection reset id=512 retrying
+2026-09-19T10:05:41Z INFO  [scheduler] 任务完成 id=512 耗时 843ms
+2026-09-19T10:05:42Z INFO  [reaper] 任务失败 id=4096 reason=timeout
+2026-09-19T10:05:43Z INFO  [scheduler] task started id=8192
+2026-09-19T10:05:44Z INFO  [reaper] 任务失败 id=512 reason=timeout
+2026-09-19T10:05:45Z INFO  [worker-1] 任务完成 id=256 耗时 868ms
+2026-09-19T10:05:46Z INFO  [reaper] 队列深度超过阈值 id=512 队列=858
+2026-09-19T10:05:47Z INFO  [worker-3] 连接重置 id=8192 重试中
+2026-09-19T10:05:48Z WARN  [scheduler] 任务开始处理 id=1024
+malformed line without structure
+2026-09-19T10:05:50Z INFO  [scheduler] 连接重置 id=8192 重试中
+	   
+2026-09-19T10:05:52Z INFO  [worker-3] connection reset id=512 retrying
+2026-09-19T10:05:53Z ERROR [worker-2] connection reset id=1024 retrying
+2026-09-19T10:05:54Z INFO  [worker-3] 任务开始处理 id=256
+2026-09-19T10:05:55Z INFO  [worker-1] 缓存命中率偏低 id=256
+2026-09-19T10:05:56Z INFO  [reaper] task failed id=512 reason=timeout
+2026-09-19T10:05:57Z INFO  [worker-1] 缓存命中率偏低 id=8192
+2026-09-19T10:05:58Z INFO  [worker-1] 队列深度超过阈值 id=2048 队列=28
+2026-09-19T10:05:59Z INFO  [worker-1] task started id=2048
+	   
+2026-09-19T10:06:01Z INFO  [worker-3] task started id=4096
+2026-09-19T10:06:02Z INFO  [scheduler] 连接重置 id=512 重试中
+2026-09-19T10:06:03Z INFO  [scheduler] 队列深度超过阈值 id=2048 队列=422
+2026-09-19T10:06:04Z WARN  [worker-3] 队列深度超过阈值 id=512 队列=278
+2026-09-19T10:06:05Z INFO  [worker-4] 连接重置 id=2048 重试中
+2026-09-19T10:06:06Z ERROR [worker-2] 任务完成 id=4096 耗时 749ms
+2026-09-19T10:06:07Z INFO  [worker-4] 任务完成 id=256 耗时 253ms
+-- continuation of previous line
+2026-09-19T10:06:09Z INFO  [reaper] task lookup id=unknown
+2026-09-19T10:06:10Z INFO  [scheduler] cache miss ratio high id=1024
+2026-09-19T10:06:11Z INFO  [reaper] task finished id=512 elapsed=777ms
+2026-09-19T10:06:12Z INFO  [worker-4] 任务开始处理 id=512
+2026-09-19T10:06:13Z INFO  [worker-1] 任务完成 id=8192 耗时 510ms
+2026-09-19T10:06:14Z INFO  [worker-1] connection reset id=4096 retrying
+2026-09-19T10:06:15Z ERROR [scheduler] task finished id=512 elapsed=718ms
+not a timestamp INFO [worker-3] hi
+2026-09-19T10:06:17Z INFO  [reaper] 队列深度超过阈值 id=256 队列=652
+2026-09-19T10:06:18Z INFO  [worker-4] cache miss ratio high id=4096
+2026-09-19T10:06:19Z INFO  [worker-4] queue depth over threshold id=512 depth=628
+2026-09-19T10:06:20Z WARN  [worker-2] queue depth over threshold id=8192 depth=666
+2026-09-19T10:06:21Z INFO  [worker-3] connection reset id=1024 retrying
+2026-09-19T10:06:22Z WARN  [reaper] 连接重置 id=256 重试中
+2026-09-19T10:06:23Z INFO  [worker-4] 缓存命中率偏低 id=2048
+2026-09-19T10:06:24Z ERROR [reaper] connection reset id=8192 retrying
+2026-09-19T10:06:25Z INFO  [worker-1] queue depth over threshold id=8192 depth=889
+2026-09-19T10:06:26Z INFO  [scheduler] task started id=4096
+2026-09-19T10:06:27Z WARN  [worker-1] connection reset id=256 retrying
+2026-09-19T10:06:28Z INFO  [reaper] cache miss ratio high id=4096
+2026-09-19T10:06:29Z INFO  [worker-4] task finished id=256 elapsed=623ms
+2026-09-19T10:06:30Z INFO  [worker-3] cache miss ratio high id=2048
+2026-09-19T10:06:31Z INFO  [reaper] queue depth over threshold id=4096 depth=866
+2026-09-19T10:06:32Z INFO  [scheduler] cache miss ratio high id=1024
+2026-09-19T10:06:33Z INFO  [worker-2] 任务失败 id=256 reason=timeout
+2026-09-19T10:06:34Z INFO  [worker-2] 连接重置 id=256 重试中
+2026-09-19T10:06:35Z INFO  [scheduler] connection reset id=512 retrying
+2026-09-19T10:06:36Z INFO  [scheduler] task finished id=8192 elapsed=564ms
+2026-09-19T10:06:37Z INFO  [worker-3] 任务完成 id=512 耗时 601ms
+2026-09-19T10:06:38Z INFO  [worker-3] 任务完成 id=1024 耗时 276ms
+2026-09-19T10:06:39Z INFO  [worker-1] 队列深度超过阈值 id=8192 队列=133
+2026-09-19T10:06:40Z INFO  [worker-3] 连接重置 id=1024 重试中
+2026-09-19T10:06:41Z WARN  [scheduler] 队列深度超过阈值 id=2048 队列=676
+2026-09-19T10:06:42Z INFO  [scheduler] 任务失败 id=512 reason=timeout
+2026-09-19T10:06:43Z INFO  [scheduler] task started id=8192
+2026-09-19T10:06:44Z INFO  [worker-4] queue depth over threshold id=4096 depth=31
+2026-09-19T10:06:45Z INFO  [reaper] 任务开始处理 id=256
+2026-09-19T10:06:46Z INFO  [worker-2] task lookup id=unknown
+2026-09-19T10:06:47Z INFO  [worker-4] task started id=2048
+2026-09-19T10:06:48Z INFO  [worker-1] task finished id=8192 elapsed=501ms
+2026-09-19T10:06:49Z INFO  [worker-4] 任务开始处理 id=8192
+2026-09-19T10:06:50Z INFO  [worker-4] task started id=4096
+2026-09-19T10:06:51Z INFO  [worker-2] 任务完成 id=256 耗时 836ms
+2026-09-19T10:06:52Z WARN  [scheduler] 任务失败 id=8192 reason=timeout
+2026-09-19T10:06:53Z INFO  [worker-4] queue depth over threshold id=512 depth=850
+2026-09-19T10:06:54Z INFO  [worker-3] 任务完成 id=8192 耗时 789ms
+2026-09-19T10:06:55Z INFO  [worker-1] task finished id=512 elapsed=824ms
+2026-09-19T10:06:56Z INFO  [worker-4] 任务失败 id=4096 reason=timeout
+malformed line without structure
+2026-09-19T10:06:58Z INFO  [reaper] task failed id=4096 reason=timeout
+2026-09-19T10:06:59Z ERROR [worker-3] queue depth over threshold id=1024 depth=360
+2026-09-19T10:07:00Z INFO  [reaper] cache miss ratio high id=8192
+2026-09-19T10:23:45Z INFO worker-3 missing brackets
+2026-09-19T10:07:02Z ERROR [reaper] queue depth over threshold id=256 depth=896
+2026-09-19T10:07:03Z ERROR [worker-2] connection reset id=4096 retrying
+2026-09-19T10:07:04Z WARN  [scheduler] 任务完成 id=4096 耗时 461ms
+2026-09-19T10:07:05Z INFO  [worker-2] 任务开始处理 id=1024
+2026-09-19T10:07:06Z WARN  [worker-1] 队列深度超过阈值 id=512 队列=101
+2026-09-19T10:07:07Z INFO  [worker-3] cache miss ratio high id=4096
+2026-09-19T10:07:08Z INFO  [worker-4] connection reset id=4096 retrying
+2026-09-19T10:07:09Z INFO  [reaper] 任务失败 id=4096 reason=timeout
+2026-09-19T10:07:10Z INFO  [worker-2] queue depth over threshold id=2048 depth=749
+2026-09-19T10:07:11Z INFO  [scheduler] queue depth over threshold id=1024 depth=630
+2026-09-19T10:07:12Z INFO  [scheduler] 缓存命中率偏低 id=2048
+2026-09-19T10:07:13Z INFO  [worker-3] queue depth over threshold id=2048 depth=724
+2026-09-19T10:07:14Z INFO  [worker-1] task failed id=4096 reason=timeout
+2026-09-19T10:07:15Z INFO  [worker-3] queue depth over threshold id=8192 depth=319
+2026-09-19T10:07:16Z WARN  [worker-1] 任务开始处理 id=2048
+2026-09-19T10:07:17Z INFO  [worker-3] 缓存命中率偏低 id=1024
+2026-09-19T10:07:18Z INFO  [worker-4] task failed id=2048 reason=timeout
+2026-09-19T10:07:19Z INFO  [worker-1] 队列深度超过阈值 id=8192 队列=19
+2026-09-19T10:07:20Z INFO  [worker-4] 缓存命中率偏低 id=2048
+2026-09-19T10:07:21Z WARN  [worker-1] task finished id=512 elapsed=502ms
+2026-09-19T10:07:22Z INFO  [worker-2] task started id=256
+2026-09-19T10:07:23Z WARN  [scheduler] task lookup id=unknown
+2026-09-19T10:07:24Z INFO  [reaper] task finished id=2048 elapsed=790ms
+2026-09-19T10:07:25Z INFO  [worker-1] task started id=1024
+2026-09-19T10:07:26Z INFO  [worker-1] 队列深度超过阈值 id=8192 队列=709
+2026-09-19T10:07:27Z INFO  [reaper] 连接重置 id=4096 重试中
+2026-09-19T10:07:28Z WARN  [worker-2] connection reset id=2048 retrying
+2026-09-19T10:07:29Z INFO  [worker-2] 任务失败 id=4096 reason=timeout
+2026-09-19T10:07:30Z INFO  [scheduler] task finished id=4096 elapsed=728ms
+2026-09-19T10:07:31Z INFO  [reaper] 任务失败 id=2048 reason=timeout
+2026-09-19T10:07:32Z INFO  [worker-3] task finished id=4096 elapsed=841ms
+2026-09-19T10:07:33Z INFO  [reaper] task finished id=1024 elapsed=203ms
+2026-09-19T10:07:34Z INFO  [worker-3] task failed id=512 reason=timeout
+2026-09-19T10:07:35Z WARN  [worker-1] 任务失败 id=2048 reason=timeout
+2026-09-19T10:07:36Z ERROR [worker-2] 任务开始处理 id=1024
+2026-09-19T10:07:37Z INFO  [worker-4] cache miss ratio high id=4096
+2026-09-19T10:07:38Z WARN  [worker-3] task started id=512
+2026-09-19T10:07:39Z INFO  [worker-3] task started id=1024
+2026-09-19T10:07:40Z WARN  [worker-2] 任务完成 id=2048 耗时 259ms
+2026-09-19T10:07:41Z INFO  [worker-3] task started id=512
+	   
+2026-09-19T10:07:43Z INFO  [scheduler] task started id=8192
+2026-09-19T10:07:44Z INFO  [reaper] queue depth over threshold id=2048 depth=352
+2026-09-19T10:23:45Z TRACE [worker-3] unknown level
+2026-09-19T10:07:46Z INFO  [worker-1] 任务开始处理 id=512
+2026-09-19T10:07:47Z INFO  [scheduler] cache miss ratio high id=2048
+2026-09-19T10:07:48Z INFO  [worker-4] cache miss ratio high id=512
+2026-09-19T10:07:49Z INFO  [reaper] 缓存命中率偏低 id=4096
+2026-09-19T10:07:50Z INFO  [reaper] 连接重置 id=2048 重试中
+2026-09-19T10:23:45Z INFO worker-3 missing brackets
+2026-09-19T10:07:52Z INFO  [worker-2] cache miss ratio high id=8192
+2026-09-19T10:07:53Z INFO  [worker-4] queue depth over threshold id=1024 depth=68
+2026-09-19T10:07:54Z INFO  [worker-4] cache miss ratio high id=2048
+2026-09-19T10:07:55Z INFO  [worker-4] task failed id=8192 reason=timeout
+2026-09-19T10:07:56Z INFO  [worker-3] queue depth over threshold id=4096 depth=404
+-- continuation of previous line
+2026-09-19T10:07:58Z INFO  [worker-4] task finished id=2048 elapsed=354ms
+2026-09-19T10:07:59Z INFO  [reaper] 缓存命中率偏低 id=2048
+2026-09-19T10:08:00Z INFO  [reaper] task lookup id=unknown
+-- continuation of previous line
+-- continuation of previous line
+2026-09-19T10:08:03Z ERROR [worker-3] queue depth over threshold id=1024 depth=370
+2026-09-19T10:08:04Z INFO  [worker-3] task failed id=4096 reason=timeout
+2026-09-19T10:08:05Z INFO  [worker-1] task finished id=1024 elapsed=414ms
+2026-09-19T10:08:06Z INFO  [worker-3] queue depth over threshold id=1024 depth=885
+2026-09-19T10:08:07Z WARN  [worker-1] 任务开始处理 id=2048
+2026-09-19T10:08:08Z ERROR [scheduler] task started id=1024
+2026-09-19T10:08:09Z ERROR [worker-1] 任务完成 id=4096 耗时 157ms
+2026-09-19T10:08:10Z INFO  [reaper] 队列深度超过阈值 id=4096 队列=39
+2026-09-19T10:08:11Z ERROR [scheduler] task started id=512
+2026-09-19T10:08:12Z INFO  [worker-1] 任务开始处理 id=8192
+2026-09-19T10:08:13Z INFO  [reaper] 任务失败 id=2048 reason=timeout
+2026-09-19T10:08:14Z INFO  [worker-3] 缓存命中率偏低 id=256
+-- continuation of previous line
+2026-09-19T10:08:16Z INFO  [reaper] queue depth over threshold id=4096 depth=304
+2026-09-19T10:08:17Z INFO  [reaper] cache miss ratio high id=4096
+2026-09-19T10:08:18Z INFO  [worker-3] 任务完成 id=8192 耗时 451ms
+2026-09-19T10:08:19Z INFO  [worker-2] task started id=8192
+2026-09-19T10:08:20Z INFO  [worker-3] 队列深度超过阈值 id=8192 队列=88
+2026-09-19T10:08:21Z INFO  [worker-2] 缓存命中率偏低 id=2048
+malformed line without structure
+2026-09-19T10:08:23Z WARN  [worker-1] connection reset id=256 retrying
+2026-09-19T10:08:24Z INFO  [worker-1] cache miss ratio high id=512
+2026-09-19T10:08:25Z INFO  [worker-3] 任务开始处理 id=512
+2026-09-19T10:08:26Z INFO  [worker-1] 队列深度超过阈值 id=512 队列=555
+2026-09-19T10:08:27Z INFO  [reaper] task started id=8192
+2026-09-19T10:08:28Z WARN  [worker-2] task finished id=8192 elapsed=890ms
+2026-09-19T10:08:29Z ERROR [scheduler] 队列深度超过阈值 id=256 队列=887
+2026-09-19T10:08:30Z INFO  [worker-2] task failed id=8192 reason=timeout
+2026-09-19T10:08:31Z INFO  [reaper] task finished id=4096 elapsed=363ms
+2026-09-19T10:08:32Z INFO  [worker-2] 连接重置 id=1024 重试中
+2026-09-19T10:08:33Z INFO  [worker-3] 缓存命中率偏低 id=4096
+2026-09-19T10:08:34Z INFO  [worker-2] 缓存命中率偏低 id=2048
+2026-09-19T10:08:35Z INFO  [worker-1] task started id=2048
+2026-09-19T10:08:36Z INFO  [scheduler] queue depth over threshold id=8192 depth=83
+2026-09-19T10:08:37Z INFO  [worker-2] task lookup id=unknown
+2026-09-19T10:08:38Z INFO  [worker-2] task started id=8192
+2026-09-19T10:08:39Z INFO  [worker-2] 任务失败 id=512 reason=timeout
+2026-09-19T10:08:40Z INFO  [reaper] 队列深度超过阈值 id=2048 队列=797
+2026-09-19T10:08:41Z WARN  [reaper] task started id=1024
+2026-09-19T10:08:42Z INFO  [worker-3] task started id=2048
+2026-09-19T10:08:43Z INFO  [worker-2] 任务完成 id=8192 耗时 265ms
+2026-09-19T10:08:44Z INFO  [worker-1] connection reset id=8192 retrying
+2026-09-19T10:08:45Z INFO  [worker-2] 缓存命中率偏低 id=2048
+2026-09-19T10:08:46Z INFO  [worker-2] task finished id=1024 elapsed=111ms
+2026-09-19T10:08:47Z INFO  [worker-2] 缓存命中率偏低 id=2048
+2026-09-19T10:08:48Z WARN  [worker-4] 任务失败 id=256 reason=timeout
+2026-09-19T10:08:49Z INFO  [worker-3] 任务完成 id=256 耗时 451ms
+2026-09-19T10:08:50Z INFO  [reaper] 缓存命中率偏低 id=2048
+2026-09-19T10:08:51Z INFO  [worker-2] task failed id=1024 reason=timeout
+2026-09-19T10:08:52Z ERROR [worker-2] 缓存命中率偏低 id=256
+2026-13-45T99:99:99Z INFO [worker-3] bad timestamp
+2026-09-19T10:08:54Z INFO  [scheduler] queue depth over threshold id=256 depth=821
+2026-09-19T10:08:55Z INFO  [scheduler] 连接重置 id=8192 重试中
+2026-09-19T10:08:56Z INFO  [worker-4] connection reset id=1024 retrying
+2026-09-19T10:08:57Z INFO  [reaper] task failed id=2048 reason=timeout
+2026-09-19T10:08:58Z WARN  [reaper] task finished id=2048 elapsed=624ms
+2026-09-19T10:08:59Z INFO  [worker-1] 任务完成 id=512 耗时 835ms
+2026-09-19T10:09:00Z INFO  [scheduler] 任务失败 id=256 reason=timeout
+2026-09-19T10:09:01Z INFO  [worker-1] task failed id=256 reason=timeout
+2026-09-19T10:09:02Z INFO  [worker-4] task finished id=256 elapsed=475ms
+2026-09-19T10:09:03Z INFO  [worker-4] task finished id=1024 elapsed=138ms
+2026-09-19T10:09:04Z INFO  [worker-3] task finished id=256 elapsed=90ms
+2026-09-19T10:09:05Z INFO  [scheduler] connection reset id=4096 retrying
+2026-09-19T10:09:06Z INFO  [reaper] connection reset id=512 retrying
+2026-09-19T10:09:07Z WARN  [worker-2] 任务完成 id=1024 耗时 702ms
+2026-09-19T10:09:08Z INFO  [worker-4] connection reset id=512 retrying
+2026-09-19T10:09:09Z INFO  [worker-1] cache miss ratio high id=4096
+2026-09-19T10:09:10Z INFO  [scheduler] 任务失败 id=8192 reason=timeout
+2026-09-19T10:09:11Z INFO  [worker-4] 任务失败 id=512 reason=timeout
+2026-09-19T10:09:12Z INFO  [worker-3] 任务完成 id=4096 耗时 573ms
+2026-09-19T10:09:13Z ERROR [worker-1] 缓存命中率偏低 id=512
+2026-09-19T10:09:14Z ERROR [scheduler] task lookup id=unknown
+2026-09-19T10:09:15Z INFO  [worker-2] connection reset id=4096 retrying
+2026-09-19T10:09:16Z INFO  [worker-3] task started id=512
+2026-09-19T10:09:17Z INFO  [scheduler] task failed id=2048 reason=timeout
+2026-09-19T10:09:18Z INFO  [worker-1] task failed id=4096 reason=timeout
+2026-09-19T10:09:19Z WARN  [scheduler] task started id=512
+2026-09-19T10:09:20Z INFO  [reaper] cache miss ratio high id=4096
+2026-09-19T10:09:21Z INFO  [worker-1] 连接重置 id=2048 重试中
+2026-09-19T10:09:22Z INFO  [worker-3] cache miss ratio high id=4096
+2026-09-19T10:09:23Z INFO  [worker-4] task finished id=1024 elapsed=200ms
+2026-09-19T10:09:24Z INFO  [reaper] task started id=1024
+2026-09-19T10:09:25Z WARN  [worker-4] 缓存命中率偏低 id=4096
+2026-09-19T10:09:26Z INFO  [worker-4] task finished id=8192 elapsed=183ms
+2026-09-19T10:09:27Z INFO  [scheduler] 队列深度超过阈值 id=1024 队列=578
+2026-09-19T10:09:28Z INFO  [reaper] queue depth over threshold id=256 depth=484
+2026-09-19T10:09:29Z INFO  [scheduler] task started id=256
+2026-09-19T10:09:30Z INFO  [worker-1] 任务失败 id=512 reason=timeout
+2026-09-19T10:09:31Z ERROR [reaper] 缓存命中率偏低 id=2048
+2026-09-19T10:09:32Z ERROR [worker-2] connection reset id=4096 retrying
+2026-09-19T10:09:33Z INFO  [worker-4] task failed id=1024 reason=timeout
+2026-09-19T10:09:34Z INFO  [worker-4] cache miss ratio high id=1024
+2026-09-19T10:09:35Z INFO  [worker-4] 队列深度超过阈值 id=1024 队列=405
+2026-09-19T10:09:36Z ERROR [worker-2] 任务失败 id=2048 reason=timeout
+2026-09-19T10:09:37Z INFO  [worker-1] 队列深度超过阈值 id=256 队列=578
+2026-09-19T10:09:38Z INFO  [worker-2] 缓存命中率偏低 id=4096
+2026-09-19T10:09:39Z INFO  [worker-4] cache miss ratio high id=1024
+2026-09-19T10:09:40Z INFO  [worker-1] task finished id=512 elapsed=666ms
+2026-09-19T10:09:41Z INFO  [worker-1] 任务完成 id=2048 耗时 388ms
+2026-09-19T10:09:42Z INFO  [reaper] task started id=2048
+2026-09-19T10:09:43Z ERROR [worker-1] task failed id=1024 reason=timeout
+2026-09-19T10:09:44Z INFO  [worker-4] queue depth over threshold id=1024 depth=724
+2026-09-19T10:09:45Z INFO  [worker-4] task failed id=512 reason=timeout
+2026-09-19T10:09:46Z WARN  [worker-3] 连接重置 id=4096 重试中
+2026-09-19T10:09:47Z INFO  [scheduler] 任务开始处理 id=8192
+2026-09-19T10:09:48Z INFO  [reaper] 任务开始处理 id=1024
+2026-09-19T10:09:49Z INFO  [worker-3] 任务完成 id=1024 耗时 509ms
+2026-09-19T10:09:50Z INFO  [worker-2] connection reset id=8192 retrying
+2026-09-19T10:09:51Z INFO  [reaper] task lookup id=unknown
+2026-09-19T10:09:52Z INFO  [worker-2] 连接重置 id=4096 重试中
+2026-09-19T10:09:53Z INFO  [worker-2] queue depth over threshold id=1024 depth=408
+2026-09-19T10:09:54Z INFO  [worker-4] task started id=2048
+2026-09-19T10:09:55Z INFO  [worker-4] 任务完成 id=512 耗时 515ms
+2026-09-19T10:09:56Z INFO  [worker-2] 队列深度超过阈值 id=256 队列=411
+2026-09-19T10:09:57Z ERROR [worker-1] 任务完成 id=4096 耗时 149ms
+2026-09-19T10:09:58Z INFO  [worker-2] 连接重置 id=256 重试中
+2026-09-19T10:09:59Z INFO  [worker-3] 队列深度超过阈值 id=8192 队列=76
+2026-09-19T10:10:00Z WARN  [worker-4] 队列深度超过阈值 id=8192 队列=718
+2026-09-19T10:10:01Z INFO  [worker-4] queue depth over threshold id=512 depth=73
+2026-09-19T10:10:02Z INFO  [worker-3] task started id=512
+2026-09-19T10:10:03Z INFO  [worker-4] 任务完成 id=4096 耗时 533ms
+2026-09-19T10:10:04Z INFO  [reaper] task failed id=1024 reason=timeout
+2026-09-19T10:10:05Z INFO  [worker-2] queue depth over threshold id=512 depth=759
+2026-09-19T10:10:06Z INFO  [worker-3] 缓存命中率偏低 id=4096
+2026-09-19T10:10:07Z INFO  [worker-4] 任务完成 id=4096 耗时 575ms
+2026-09-19T10:10:08Z INFO  [reaper] 任务开始处理 id=2048
+2026-09-19T10:10:09Z ERROR [reaper] connection reset id=8192 retrying
+2026-09-19T10:10:10Z INFO  [worker-4] 任务失败 id=1024 reason=timeout
+2026-09-19T10:10:11Z INFO  [worker-4] 任务完成 id=256 耗时 620ms
+2026-09-19T10:10:12Z INFO  [worker-1] 任务完成 id=1024 耗时 824ms
+2026-09-19T10:10:13Z WARN  [worker-2] connection reset id=2048 retrying
+2026-09-19T10:10:14Z WARN  [reaper] task finished id=8192 elapsed=764ms
+2026-09-19T10:10:15Z INFO  [scheduler] 任务开始处理 id=8192
+2026-09-19T10:10:16Z INFO  [worker-2] 任务失败 id=1024 reason=timeout
+2026-09-19T10:10:17Z INFO  [reaper] 队列深度超过阈值 id=1024 队列=562
+2026-09-19T10:10:18Z WARN  [worker-4] 缓存命中率偏低 id=8192
+2026-09-19T10:10:19Z INFO  [worker-2] task finished id=4096 elapsed=606ms
+2026-09-19T10:10:20Z INFO  [worker-4] 任务完成 id=256 耗时 222ms
+2026-09-19T10:10:21Z INFO  [worker-1] 任务完成 id=2048 耗时 132ms
+2026-09-19T10:10:22Z INFO  [reaper] 缓存命中率偏低 id=2048
+2026-09-19T10:10:23Z INFO  [worker-3] task finished id=1024 elapsed=799ms
+-- continuation of previous line
+2026-09-19T10:10:25Z INFO  [worker-2] 队列深度超过阈值 id=2048 队列=424
+2026-09-19T10:10:26Z INFO  [worker-3] 连接重置 id=2048 重试中
+2026-09-19T10:10:27Z WARN  [worker-1] 连接重置 id=8192 重试中
+2026-09-19T10:10:28Z INFO  [worker-3] task lookup id=unknown
+	   
+2026-09-19T10:10:30Z INFO  [worker-3] 任务完成 id=256 耗时 222ms
+2026-09-19T10:10:31Z INFO  [worker-2] 连接重置 id=4096 重试中
+2026-09-19T10:10:32Z ERROR [worker-4] connection reset id=512 retrying
+2026-09-19T10:10:33Z INFO  [worker-2] task failed id=512 reason=timeout
+2026-09-19T10:10:34Z INFO  [scheduler] cache miss ratio high id=8192
+2026-09-19T10:10:35Z INFO  [worker-2] cache miss ratio high id=4096
+2026-09-19T10:10:36Z INFO  [worker-3] task failed id=256 reason=timeout
+2026-09-19T10:10:37Z INFO  [worker-4] connection reset id=1024 retrying
+2026-09-19T10:10:38Z INFO  [worker-1] 任务完成 id=1024 耗时 165ms
+2026-09-19T10:10:39Z INFO  [scheduler] cache miss ratio high id=8192
+2026-09-19T10:10:40Z INFO  [reaper] task started id=4096
+2026-09-19T10:10:41Z INFO  [reaper] task failed id=256 reason=timeout
+2026-09-19T10:10:42Z WARN  [scheduler] 任务完成 id=8192 耗时 313ms
+2026-09-19T10:10:43Z ERROR [worker-3] queue depth over threshold id=2048 depth=705
+2026-09-19T10:10:44Z WARN  [worker-1] 队列深度超过阈值 id=256 队列=641
+2026-09-19T10:10:45Z INFO  [worker-2] 任务开始处理 id=2048
+2026-09-19T10:10:46Z INFO  [reaper] 缓存命中率偏低 id=512
+2026-09-19T10:10:47Z INFO  [worker-4] queue depth over threshold id=256 depth=248
+2026-09-19T10:10:48Z WARN  [reaper] task finished id=8192 elapsed=390ms
+2026-09-19T10:10:49Z INFO  [reaper] 任务失败 id=4096 reason=timeout
+2026-09-19T10:10:50Z INFO  [worker-3] connection reset id=4096 retrying
+2026-09-19T10:10:51Z ERROR [reaper] 任务开始处理 id=1024
+2026-09-19T10:10:52Z INFO  [worker-1] task started id=1024
+2026-09-19T10:10:53Z INFO  [worker-4] 队列深度超过阈值 id=2048 队列=559
+2026-09-19T10:10:54Z INFO  [reaper] 任务完成 id=256 耗时 505ms
+2026-09-19T10:10:55Z INFO  [worker-4] 队列深度超过阈值 id=2048 队列=877
+2026-09-19T10:10:56Z INFO  [worker-2] 队列深度超过阈值 id=2048 队列=967
+2026-09-19T10:10:57Z INFO  [scheduler] 队列深度超过阈值 id=1024 队列=765
+2026-09-19T10:10:58Z INFO  [worker-2] 任务开始处理 id=8192
+2026-09-19T10:10:59Z INFO  [worker-1] 任务完成 id=256 耗时 102ms
+2026-09-19T10:11:00Z ERROR [worker-4] cache miss ratio high id=256
+2026-09-19T10:11:01Z INFO  [scheduler] 任务失败 id=1024 reason=timeout
+2026-09-19T10:11:02Z WARN  [worker-4] 连接重置 id=256 重试中
+2026-09-19T10:11:03Z INFO  [scheduler] connection reset id=2048 retrying
+2026-09-19T10:11:04Z WARN  [worker-3] 缓存命中率偏低 id=2048
+2026-09-19T10:11:05Z INFO  [scheduler] task lookup id=unknown
+2026-09-19T10:11:06Z INFO  [worker-4] connection reset id=512 retrying
+2026-09-19T10:11:07Z INFO  [worker-4] 任务完成 id=256 耗时 334ms
+2026-09-19T10:11:08Z WARN  [worker-2] cache miss ratio high id=512
+2026-09-19T10:11:09Z INFO  [worker-3] 任务失败 id=4096 reason=timeout
+2026-09-19T10:11:10Z INFO  [worker-4] 队列深度超过阈值 id=512 队列=95
+2026-09-19T10:11:11Z INFO  [reaper] 任务失败 id=1024 reason=timeout
+2026-09-19T10:11:12Z ERROR [worker-3] task started id=4096
+2026-09-19T10:11:13Z INFO  [worker-3] cache miss ratio high id=4096
+2026-09-19T10:11:14Z INFO  [worker-1] 任务开始处理 id=8192
+2026-09-19T10:11:15Z INFO  [scheduler] 任务失败 id=2048 reason=timeout
+2026-09-19T10:11:16Z INFO  [reaper] queue depth over threshold id=4096 depth=949
+2026-09-19T10:11:17Z INFO  [worker-4] 队列深度超过阈值 id=256 队列=272
+2026-09-19T10:11:18Z INFO  [scheduler] 任务开始处理 id=8192
+2026-09-19T10:11:19Z INFO  [worker-2] 任务完成 id=256 耗时 50ms
+2026-09-19T10:11:20Z WARN  [scheduler] 任务失败 id=512 reason=timeout
+2026-09-19T10:11:21Z INFO  [worker-1] connection reset id=512 retrying
+2026-09-19T10:11:22Z INFO  [reaper] 任务开始处理 id=2048
+2026-09-19T10:11:23Z INFO  [worker-2] task finished id=8192 elapsed=690ms
+2026-09-19T10:11:24Z INFO  [worker-3] task started id=4096
+2026-09-19T10:11:25Z WARN  [worker-1] 缓存命中率偏低 id=1024
+2026-09-19T10:11:26Z INFO  [worker-3] task started id=4096
+2026-09-19T10:11:27Z INFO  [worker-2] 任务完成 id=2048 耗时 466ms
+2026-09-19T10:11:28Z INFO  [scheduler] task started id=4096
+2026-09-19T10:11:29Z INFO  [scheduler] task started id=512
+2026-09-19T10:11:30Z INFO  [worker-3] 连接重置 id=4096 重试中
+2026-09-19T10:11:31Z WARN  [scheduler] task started id=256
+2026-09-19T10:11:32Z INFO  [worker-2] task finished id=256 elapsed=813ms
+2026-09-19T10:11:33Z INFO  [worker-2] queue depth over threshold id=512 depth=121
+2026-09-19T10:11:34Z INFO  [worker-1] task failed id=4096 reason=timeout
+2026-09-19T10:11:35Z INFO  [scheduler] 缓存命中率偏低 id=2048
+2026-09-19T10:11:36Z INFO  [reaper] 缓存命中率偏低 id=2048
+2026-09-19T10:11:37Z INFO  [worker-3] task started id=2048
+2026-09-19T10:11:38Z INFO  [worker-4] 缓存命中率偏低 id=2048
+2026-09-19T10:11:39Z INFO  [worker-1] task finished id=8192 elapsed=589ms
